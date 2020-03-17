@@ -73,7 +73,12 @@
 
 @font-face {
   src: url(../fonts/Mogena.ttf);
-  font-family: mogena;
+  font-family: Mogena;
+}
+
+@font-face {
+  src: url(../fonts/Mandalika.otf);
+  font-family: Mandalika;
 }
 
 * {
