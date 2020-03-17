@@ -1,4 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import IconHome1 from '../components/IconHome1'
+import IconHome2 from '../components/IconHome2'
+import IconHome3 from '../components/IconHome3'
+import homeImage from '../images/homeImage.svg';
+
+console.log(homeImage,'HERERERERERE');
 
 export default class Home extends Component {
     render() {
@@ -14,21 +20,27 @@ export default class Home extends Component {
                     </section>
                     <section className="imageContainer">
                         <div className="homeImage">
-                            <div className="tabContainer one">
-                                <div className="homeImageTab">
-                                    <div className="square"></div>
+                            <img src={homeImage} alt=""/>
+                            <div className="tabContainer">
+                                <div className="homeImageTab one">
+                                    <div className="square">
+                                        <IconHome1/>
+                                    </div>
                                     <article>Research</article>
                                 </div>
                                 <div className="homeImageTab two">
-                                    <div className="square"></div>
+                                    <div className="square">
+                                        <IconHome2/>
+                                    </div>
                                     <article>UI Design</article>
                                 </div>
                                 <div className="homeImageTab three">
-                                    <div className="square"></div>
+                                    <div className="square">
+                                        <IconHome3/>
+                                    </div>
                                     <article>Analysis</article>
                                 </div>
                             </div>
-                            <img src="" alt=""/>
                             <p className="sidewaysText">WE WORK WITH PASSION!</p>
                         </div>
                     </section>

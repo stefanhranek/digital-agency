@@ -70,7 +70,7 @@
 .square {
   width: 80px;
   height: 80px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #FDF3E5;
 }
 
@@ -100,7 +100,7 @@
 .tabContainer .one {
   position: absolute;
   top: 13%;
-  left: -200px;
+  left: -100px;
 }
 
 .tabContainer .two {
@@ -127,7 +127,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 10px auto;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 12px;
   width: 300px;
   background: white;
@@ -165,6 +165,10 @@
   bottom: 100px;
   right: -160px;
   font-family: Sophillia;
+}
+
+.drawing {
+  z-index: 999999;
 }
 
 .navbar {
