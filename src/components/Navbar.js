@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
     render() {
         return (
-            <div>
+            <div className="navbar">
                 <h1>stefco</h1>
                 <ul>
                     <li>About</li>
@@ -12,7 +12,7 @@ export default class Navbar extends Component {
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
-                <button>Start a Project</button>
+                <button>Start A Project</button>
             </div>
         )
     }

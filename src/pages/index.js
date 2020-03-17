@@ -11,10 +11,12 @@ import Services from "./Services"
 import Projects from "./Projects"
 import Blog from "./Blog"
 import Contact from "./Contact"
+import Navbar from "./../components/Navbar"
 
 const IndexPage = () => (
-  <Layout>
+  <div>
     <SEO title="Home" />
+    <Navbar></Navbar>
     <Home></Home>
     <About></About>
     <Services></Services>
@@ -25,7 +27,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
