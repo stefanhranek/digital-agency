@@ -12,13 +12,13 @@ export default class Home extends Component {
                         <p className="description">We're a team of designers and brand<br/>strategists who create beautiful websites</p>
                         <button>Explore projects</button>
                     </section>
-                    <section>
-                        <div>
+                    <section className="imageContainer">
+                        <div className="homeImage">
                             <article>Research</article>
                             <article>UI Design</article>
                             <article>Analysis</article>
                             <img src="" alt=""/>
-                            <p>WE WORK WITH PASSION!</p>
+                            <p className="sidewaysText">WE WORK WITH PASSION!</p>
                         </div>
                     </section>
                 </div>
