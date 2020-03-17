@@ -45,15 +45,6 @@ export default class Home extends Component {
                         </div>
                     </section>
                 </div>
-                <div>
-                    <ul>
-                        <li>Google</li>
-                        <li>Adobe</li>
-                        <li>PayPal</li>
-                        <li>Artesel</li>
-                        <li>Bloom</li>
-                    </ul>
-                </div>
             </>
         )
     }

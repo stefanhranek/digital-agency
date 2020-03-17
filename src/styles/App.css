@@ -162,8 +162,8 @@
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   position: absolute;
-  bottom: 100px;
-  right: -160px;
+  bottom: 80px;
+  right: -159px;
   font-family: Sophillia;
 }
 
@@ -233,6 +233,10 @@
 @font-face {
   src: url(../fonts/Sunflower.otf);
   font-family: Sunflower;
+}
+
+.companiesSection {
+  background: #FDF3E5;
 }
 
 * {

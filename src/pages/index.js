@@ -11,6 +11,7 @@ import Services from "./Services"
 import Projects from "./Projects"
 import Blog from "./Blog"
 import Contact from "./Contact"
+import Companies from "./../components/Companies"
 import Navbar from "./../components/Navbar"
 
 const IndexPage = () => (
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Navbar></Navbar>
     <Home></Home>
+    <Companies/>
     <About></About>
     <Services></Services>
     <Projects></Projects>
