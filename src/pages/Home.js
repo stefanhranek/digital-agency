@@ -14,9 +14,20 @@ export default class Home extends Component {
                     </section>
                     <section className="imageContainer">
                         <div className="homeImage">
-                            <article>Research</article>
-                            <article>UI Design</article>
-                            <article>Analysis</article>
+                            <div className="tabContainer one">
+                                <div className="homeImageTab">
+                                    <div className="square"></div>
+                                    <article>Research</article>
+                                </div>
+                                <div className="homeImageTab two">
+                                    <div className="square"></div>
+                                    <article>UI Design</article>
+                                </div>
+                                <div className="homeImageTab three">
+                                    <div className="square"></div>
+                                    <article>Analysis</article>
+                                </div>
+                            </div>
                             <img src="" alt=""/>
                             <p className="sidewaysText">WE WORK WITH PASSION!</p>
                         </div>

@@ -67,12 +67,78 @@
   left: 9.6%;
 }
 
+.square {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: #FDF3E5;
+}
+
 .homeImage {
   background: #f0f0f0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f0f0f0), color-stop(17%, rgba(240, 240, 240, 0.527)), to(rgba(240, 240, 240, 0)));
-  background: linear-gradient(0deg, #f0f0f0 0%, rgba(240, 240, 240, 0.527) 17%, rgba(240, 240, 240, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#f0f0f0), color-stop(10%, #f0f0f0), to(rgba(240, 240, 240, 0)));
+  background: linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 10%, rgba(240, 240, 240, 0) 100%);
   height: 550px;
   width: 450px;
+}
+
+.tabContainer {
+  margin-top: 15%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tabContainer .one {
+  position: absolute;
+  top: 13%;
+  left: -200px;
+}
+
+.tabContainer .two {
+  position: absolute;
+  top: 44%;
+  left: -200px;
+}
+
+.tabContainer .three {
+  position: absolute;
+  top: 77%;
+  left: -100px;
+}
+
+.homeImageTab {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 12px;
+  width: 300px;
+  background: white;
+}
+
+.homeImageTab article {
+  margin: 20px auto;
+  font-family: Sunflower;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.25px;
 }
 
 .imageContainer {
