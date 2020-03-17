@@ -1,8 +1,20 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,aAAa;CAIhC;;AALH,AAEI,IAFA,CAEA,CAAC,CAAC;EACA,KAAK,EAAE,KAAK;CACb",
+    "mappings": "AMAA,AAAA,KAAK,CAAC;EJCF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EDJX,OAAO;ECKZ,cAAc,EIJS,GAAG;EJK1B,MAAM,EILsB,KAAK;EJMjC,KAAK,EIN8B,IAAI;CAC1C;;AMFD,UAAU;EACN,GAAG,EAAE,wBAAwB;EAC7B,WAAW,EAAE,MAAM;;;AZCvB,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,aAAa;CAIhC;;AALH,AAEI,IAFA,CAEA,CAAC,CAAC;EACA,KAAK,EAAE,KAAK;CACb",
     "sources": [
-        "App.scss"
+        "App.scss",
+        "_variables.scss",
+        "_mixins.scss",
+        "_keyframes.scss",
+        "_about.scss",
+        "_contact.scss",
+        "_home.scss",
+        "_navbar.scss",
+        "_projects.scss",
+        "_projectcard.scss",
+        "_services.scss",
+        "_blog.scss",
+        "fontface.scss"
     ],
     "names": [],
     "file": "App.css"

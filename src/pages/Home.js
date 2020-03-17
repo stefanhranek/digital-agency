@@ -4,7 +4,7 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                <div>
+                <div className="home">
                     <section>
                         <p>DIGITAL AGENCY</p>
                         <h1>We Bring<br/>Ideas to Life</h1>

@@ -1,0 +1,9 @@
+@mixin page($color, $direction, $height, $width) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color;
+    flex-direction: $direction;
+    height: $height;
+    width: $width;
+}
