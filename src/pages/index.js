@@ -6,12 +6,14 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Home from "./Home"
 import About from "./About"
+import Services from "./Services"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Home></Home>
     <About></About>
+    <Services></Services>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
