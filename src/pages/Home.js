@@ -6,9 +6,10 @@ export default class Home extends Component {
             <>
                 <div className="home">
                     <section>
-                        <p>DIGITAL AGENCY</p>
-                        <h1>We Bring<br/>Ideas to Life</h1>
-                        <p>We're a team of designers and brand strategists who create beautiful websites</p>
+                        <p className="subtitle">DIGITAL AGENCY</p>
+                        <div className="circle"/>
+                        <h1 className="title">We Bring<br/>Ideas to Life</h1>
+                        <p className="description">We're a team of designers and brand<br/>strategists who create beautiful websites</p>
                         <button>Explore projects</button>
                     </section>
                     <section>

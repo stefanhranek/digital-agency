@@ -21,11 +21,6 @@
     }
 
     button {
-        background: $accent2;
-        color: white;
-        font-weight: bold;
-        padding: 15px 30px;
-        border-radius: 50px;
-        border: none;
+        @include button($accent2,white)
     }
 }

@@ -4,8 +4,8 @@ export default class Services extends Component {
     render() {
         return (
             <div>
-                <p>SERVICES</p>
-                <h1>Designed for today<br/>and built for tomorrow</h1>
+                <p className="subtitle">SERVICES</p>
+                <h1 className="title">Designed for today<br/>and built for tomorrow</h1>
                 <section>
                     <article>Brand Identity</article>
                     <article>Product Design</article>

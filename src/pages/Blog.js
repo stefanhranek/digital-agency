@@ -8,7 +8,7 @@ export default class Blog extends Component {
                     <img src="" alt=""/>
                 </section>
                 <section>
-                    <p>"It was an amazing experience sharing and learning alongside wonderful people in our industry. The great exchange, energy, and valuable lessons will surely be extended to my entire team at Apple."</p>
+                    <p className="title">"It was an amazing experience sharing and learning alongside wonderful people in our industry. The great exchange, energy, and valuable lessons will surely be extended to my entire team at Apple."</p>
                     <article>
                         <div>
                             <h3>Stefan Hranek</h3>

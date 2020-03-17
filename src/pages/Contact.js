@@ -5,8 +5,8 @@ export default class Contact extends Component {
         return (
             <div>
                 <section>
-                    <p>We're here to help<br/>manifest your ideas.</p>
-                    <a href="#">Start a Project</a>
+                    <p className="title">We're here to help<br/>manifest your ideas.</p>
+                    <a className="title" href="#">Start a Project</a>
                 </section>
                 <section>
                     <div>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,6 +16,55 @@
           flex-direction: row;
   height: 100vh;
   width: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10%;
+}
+
+.home button {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 25px;
+  padding: 20px 40px;
+}
+
+.title {
+  position: relative;
+  font-size: 130px;
+  z-index: 1;
+}
+
+.description {
+  font-size: 38px;
+  font-family: Lato;
+  line-height: 1.5em;
+  color: #535353;
+}
+
+.subtitle {
+  font-family: Sophillia;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 120px;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  background: transparent;
+  border-radius: 50%;
+  border: solid 30px #FFD491;
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  left: 9.6%;
 }
 
 .navbar {
@@ -77,8 +127,8 @@
 }
 
 @font-face {
-  src: url(../fonts/Mandalika.otf);
-  font-family: Mandalika;
+  src: url(../fonts/Sunflower.otf);
+  font-family: Sunflower;
 }
 
 * {
@@ -90,6 +140,7 @@
 }
 
 * h1 {
-  font-family: mogena;
+  font-family: Sunflower;
+  color: black;
 }
 /*# sourceMappingURL=App.css.map */
