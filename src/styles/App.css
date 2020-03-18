@@ -299,6 +299,67 @@
   border: none;
 }
 
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: auto;
+}
+
+.services .topServices {
+  margin: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.services .title {
+  text-align: left;
+  position: relative;
+  font-size: 80px;
+  z-index: 1;
+}
+
+.services .subtitle {
+  font-family: Sophillia;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 0 0 150px;
+  margin: 0;
+}
+
+.services .circle {
+  width: 130px;
+  height: 130px;
+  background: transparent;
+  border-radius: 50%;
+  border: solid 20px #FFD491;
+  position: relative;
+  z-index: 1;
+  top: 125px;
+  left: -2px;
+}
+
 @font-face {
   src: url(../fonts/Mogena.ttf);
   font-family: Mogena;
