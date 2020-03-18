@@ -746,13 +746,29 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .blog article button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
   padding: 0;
-  height: 30px;
-  width: 30px;
+  height: auto;
+  width: auto;
+  background-color: #513AA6;
+  border: none;
+}
+
+.blog article button img {
+  margin: auto;
+  padding: 15px 25px;
 }
 
 .blog .name {
