@@ -26,7 +26,7 @@ const IconService = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img className="arrowButton" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default IconService

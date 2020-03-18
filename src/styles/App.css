@@ -360,6 +360,11 @@
   left: -2px;
 }
 
+.services .arrowButton {
+  height: 50px;
+  width: 50px;
+}
+
 .services .serviceTabContainer {
   display: -webkit-box;
   display: -ms-flexbox;
