@@ -10,7 +10,7 @@ export default class ProjectCard extends Component {
         <section className="left">
           <p className="subtitle">WEB DESIGN</p>
           <h3 className="title">
-            Spotcheck gives
+            Spotcheck provides
             <br />
             skaters a map
             <br /> to the best spots
