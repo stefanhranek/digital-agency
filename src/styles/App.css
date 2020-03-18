@@ -512,7 +512,7 @@
   position: relative;
   font-size: 130px;
   z-index: 1;
-  font-family: sunflower;
+  font-family: recoleta;
   font-size: 38px;
 }
 
@@ -692,7 +692,7 @@
 
 .blog .title {
   font-size: 36px;
-  font-family: sophillia;
+  font-family: mackay;
   font-weight: bold;
   letter-spacing: 1.7px;
   line-height: 1.5em;
@@ -734,6 +734,11 @@
 @font-face {
   src: url(../fonts/Recoleta.otf);
   font-family: Recoleta;
+}
+
+@font-face {
+  src: url(../fonts/Mackay.otf);
+  font-family: Mackay;
 }
 
 .companiesSection {
