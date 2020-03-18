@@ -1,0 +1,23 @@
+.projectCard {
+    margin:100px;
+    .title {
+        position: relative;
+        font-size: 130px;
+        z-index: 1;
+        font-family: sunflower;
+        font-size: 38px
+    }
+    
+    .description {
+        font-size: 24px;
+        font-family: Lato;
+        line-height: 1.5em;
+        color: $text;
+    }
+    
+    .subtitle {
+        @include subText();
+        text-align: left;
+        padding: 0;
+    }
+}

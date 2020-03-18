@@ -23,7 +23,7 @@
 }
 
 .about button {
-  background: black;
+  background: #513AA6;
   color: white;
   font-weight: bold;
   padding: 15px 30px;
@@ -55,10 +55,6 @@
   text-align: left;
   padding: 0 0 0 150px;
   margin: 0;
-}
-
-.about button {
-  background: #513AA6;
 }
 
 .about .circle {
@@ -297,6 +293,124 @@
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FDF3E5;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: auto;
+}
+
+.projects .topServices {
+  margin: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.projects .title {
+  text-align: left;
+  position: relative;
+  font-size: 70px;
+  z-index: 1;
+}
+
+.projects .subtitle {
+  font-family: Sophillia;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 0 0 150px;
+  margin: 0;
+}
+
+.projects .circle {
+  width: 130px;
+  height: 130px;
+  background: transparent;
+  border-radius: 50%;
+  border: solid 20px #FFD491;
+  position: relative;
+  z-index: 1;
+  top: 125px;
+  left: -2px;
+}
+
+.projects .topProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects button {
+  background: #513AA6;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin: 35px;
+  padding: 20px 40px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.projects .projectCardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projectCard {
+  margin: 100px;
+}
+
+.projectCard .title {
+  position: relative;
+  font-size: 130px;
+  z-index: 1;
+  font-family: sunflower;
+  font-size: 38px;
+}
+
+.projectCard .description {
+  font-size: 24px;
+  font-family: Lato;
+  line-height: 1.5em;
+  color: #535353;
+}
+
+.projectCard .subtitle {
+  font-family: Sophillia;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0;
 }
 
 .services {

@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 10%;
     button {
-        @include button(black,white);
+        @include button($accent2,white);
         margin-top: 25px;
         padding: 20px 40px;
     }
@@ -27,11 +27,6 @@
         padding: 0 0 0 150px;
         margin: 0;
     }
-    
-    button {
-        background: $accent2;
-    }
-
 
     .circle {
         width: 130px;
