@@ -360,6 +360,22 @@
   left: -2px;
 }
 
+.services .serviceTabContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services .serviceTabContainer .serviceTab {
+  margin: 50px;
+}
+
+.services .serviceTabContainer .serviceTab p {
+  font-family: Sunflower;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 @font-face {
   src: url(../fonts/Mogena.ttf);
   font-family: Mogena;
