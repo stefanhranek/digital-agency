@@ -3,6 +3,7 @@ import IconHome1 from "../components/IconHome1"
 import IconHome2 from "../components/IconHome2"
 import IconHome3 from "../components/IconHome3"
 import homeImage from "../images/homeImage.svg"
+import rightArrow from "../images/arrowRight.svg"
 
 export default class About extends Component {
   render() {
@@ -29,7 +30,10 @@ export default class About extends Component {
             <br />
             who transform organizations through education.
           </p>
-          <button>Learn About Us</button>
+          <button>
+            <img src={rightArrow} alt="right arrow" />
+            Learn About Us
+          </button>
         </section>
       </div>
     )

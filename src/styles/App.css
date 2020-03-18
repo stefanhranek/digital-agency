@@ -29,8 +29,19 @@
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 25px;
   padding: 20px 40px;
+}
+
+.about button img {
+  margin: 0;
+  padding-right: 10px;
 }
 
 .about .title {
@@ -218,8 +229,19 @@
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 25px;
   padding: 20px 40px;
+}
+
+.home button img {
+  margin: 0;
+  padding-right: 10px;
 }
 
 .title {
@@ -412,6 +434,17 @@
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar button img {
+  margin: 0;
+  padding-right: 10px;
 }
 
 .projects {
@@ -488,10 +521,21 @@
   padding: 15px 30px;
   border-radius: 50px;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 35px;
   padding: 20px 40px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+.projects button img {
+  margin: 0;
+  padding-right: 10px;
 }
 
 .projects .projectCardContainer {

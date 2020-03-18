@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import homeImage from "../images/homeImage.svg";
+import rightArrow from "../images/arrowRight.svg";
 
 export default class Blog extends Component {
   render() {
@@ -32,7 +33,9 @@ export default class Blog extends Component {
               <h3 className="name">Stefan Hranek</h3>
               <h4>LEAD UX DESIGNER, APPLE</h4>
             </div>
-            <button>-></button>
+            <button>
+              <img src={rightArrow} alt="right arrow" />
+            </button>
           </article>
         </section>
       </div>

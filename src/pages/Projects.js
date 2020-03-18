@@ -1,5 +1,6 @@
-import React, { Component } from "react"
-import ProjectCard from "../components/ProjectCard"
+import React, { Component } from "react";
+import ProjectCard from "../components/ProjectCard";
+import rightArrow from "../images/arrowRight.svg";
 
 export default class Projects extends Component {
   render() {
@@ -11,7 +12,10 @@ export default class Projects extends Component {
             <p className="subtitle">PROJECTS</p>
             <h1 className="title">Featured Projects</h1>
           </div>
-          <button>Explore All Projects</button>
+          <button>
+            <img src={rightArrow} alt="right arrow" />
+            Explore All Projects
+          </button>
         </section>
         <section className="projectCardContainer">
           <ProjectCard />
