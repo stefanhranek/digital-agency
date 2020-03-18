@@ -4,10 +4,12 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="contact">
-                <section className="topContact">
-                    <p className="title">We're here to help<br/>manifest your ideas.</p>
-                    <a className="titleLink" href="#">Start a Project</a>
-                </section>
+                <div className="contactBorder">
+                    <section className="topContact">
+                        <p className="title">We're here to help<br/>manifest your ideas.</p>
+                        <a className="titleLink" href="#">Start a Project</a>
+                    </section>
+                </div>
                 <section className="bottomContact">
                     <div>
                         <article>
