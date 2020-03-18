@@ -9,7 +9,7 @@
   .title {
     text-align: left;
     position: relative;
-    font-size: 80px;
+    font-size: 70px;
     z-index: 1;
   }
   .subtitle {
@@ -31,19 +31,54 @@
   }
 
   .arrowButton {
-      height: 50px;
-      width: 50px;
+    height: 50px;
+    width: 50px;
   }
 
   .serviceTabContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    .serviceTab {
+      background: white;
+      height: 120px;
+      width: 420px;
       display: flex;
-      .serviceTab {
-          margin: 50px;
-          p {
-              font-family: Sunflower;
-              font-size: 24px;
-              font-weight: bold;
-          }
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 50px;
+      padding: 40px;
+      // border: silver 1px solid;
+      box-shadow: (0 30px 50px 15px #ECECEC);
+      p {
+        font-family: Sunflower;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+        z-index:2;
       }
+      img {
+        margin: 0;
+        padding: 0;
+        width: 52px;
+        z-index:2;
+      }
+      .rectangle {
+        width: 150px;
+        height: 75px;
+        background-color: $accent4;
+        position: absolute;
+        margin-left:25px;
+      }
+      .two {
+        background-color: $accent3;
+      }
+
+      .three {
+        background-color: $accent5;
+      }
+    }
   }
 }

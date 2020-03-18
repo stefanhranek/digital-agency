@@ -334,7 +334,7 @@
 .services .title {
   text-align: left;
   position: relative;
-  font-size: 80px;
+  font-size: 70px;
   z-index: 1;
 }
 
@@ -369,16 +369,69 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .services .serviceTabContainer .serviceTab {
+  background: white;
+  height: 120px;
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 50px;
+  padding: 40px;
+  -webkit-box-shadow: 0 30px 50px 15px #ECECEC;
+          box-shadow: 0 30px 50px 15px #ECECEC;
 }
 
 .services .serviceTabContainer .serviceTab p {
   font-family: Sunflower;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
+  z-index: 2;
+}
+
+.services .serviceTabContainer .serviceTab img {
+  margin: 0;
+  padding: 0;
+  width: 52px;
+  z-index: 2;
+}
+
+.services .serviceTabContainer .serviceTab .rectangle {
+  width: 150px;
+  height: 75px;
+  background-color: #72CEC1;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.services .serviceTabContainer .serviceTab .two {
+  background-color: #FFD491;
+}
+
+.services .serviceTabContainer .serviceTab .three {
+  background-color: #FF7F5C;
 }
 
 @font-face {
