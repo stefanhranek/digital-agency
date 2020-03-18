@@ -1,38 +1,44 @@
 .blog {
     @include page(white, row, 100vh, auto);
-    justify-content: space-between;
-    padding: 10%;
+    justify-content: space-evenly;
+    padding: 0;
     .title {
         font-size: 36px;
         font-family: mackay;
         font-weight: bold;
         letter-spacing: 1.7px;
         line-height: 1.5em;
+        margin-bottom: 80px;
     }
     article {
+        margin: auto;
         display: flex;
         justify-content: space-between;
         button {
             display: flex;
             align-items: center;
-            margin: auto;
-            padding: 0;
+            margin: auto 0;
+            padding: 15px 25px;
             height: auto;
             width: auto;
             background-color: $accent2;
             border: none;
             img {
                 margin: auto;
-                padding: 15px 25px;
+                height: 30px;
+                width: 30px;
             }
         }
     }
     .name {
         font-family: sunflower;
-        font-size: 38px;
-        color: $accent2
+        font-size: 42px;
+        color: $accent2;
+        margin-bottom:15px;
     }
     h4 {
         color: $text;
+        letter-spacing: 1.5px;
+        margin: 0
     }
 }

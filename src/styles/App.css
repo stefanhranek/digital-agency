@@ -728,10 +728,10 @@
           flex-direction: row;
   height: 100vh;
   width: auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 10%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0;
 }
 
 .blog .title {
@@ -740,9 +740,11 @@
   font-weight: bold;
   letter-spacing: 1.7px;
   line-height: 1.5em;
+  margin-bottom: 80px;
 }
 
 .blog article {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -758,8 +760,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
-  padding: 0;
+  margin: auto 0;
+  padding: 15px 25px;
   height: auto;
   width: auto;
   background-color: #513AA6;
@@ -768,17 +770,21 @@
 
 .blog article button img {
   margin: auto;
-  padding: 15px 25px;
+  height: 30px;
+  width: 30px;
 }
 
 .blog .name {
   font-family: sunflower;
-  font-size: 38px;
+  font-size: 42px;
   color: #513AA6;
+  margin-bottom: 15px;
 }
 
 .blog h4 {
   color: #535353;
+  letter-spacing: 1.5px;
+  margin: 0;
 }
 
 @font-face {
