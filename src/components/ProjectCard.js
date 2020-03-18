@@ -6,6 +6,7 @@ export default class ProjectCard extends Component {
   render() {
     return (
       <div className="projectCard">
+        <section className="imageContainer"/>
         <section className="left">
           <p className="subtitle">WEB DESIGN</p>
           <h3 className="title">

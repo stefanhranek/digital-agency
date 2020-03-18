@@ -557,7 +557,7 @@
   height: auto;
   width: 800px;
   margin: 100px;
-  padding: 40px 40px 0 40px;
+  padding: 50px 40px 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,6 +663,20 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-bottom: 75px;
+}
+
+.projectCard .imageContainer {
+  position: absolute;
+}
+
+.projectCard .imageContainer::before {
+  position: absolute;
+  top: -3%;
+  left: -2%;
+  width: 97%;
+  height: 110%;
+  border: 6px solid black;
+  content: '';
 }
 
 .services {
