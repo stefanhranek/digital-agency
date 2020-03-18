@@ -1,8 +1,9 @@
 .navbar {
-    @include page(transparent, row, auto, 100vw);
+    @include page($mainBG, row, auto, 100vw);
     position: fixed;
     justify-content: space-between;
     padding: 30px 10%;
+    z-index: 99999999;
     h1 {
         margin: 0;
     }
