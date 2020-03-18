@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class Contact extends Component {
     render() {
         return (
-            <div>
-                <section>
+            <div className="contact">
+                <section className="topContact">
                     <p className="title">We're here to help<br/>manifest your ideas.</p>
-                    <a className="title" href="#">Start a Project</a>
+                    <a className="titleLink" href="#">Start a Project</a>
                 </section>
-                <section>
+                <section className="bottomContact">
                     <div>
                         <article>
                             <h5>San Diego</h5>
@@ -22,10 +22,10 @@ export default class Contact extends Component {
                     <div>
                         <article>
                             <h5>StefDigi</h5>
-                            <p>A digital experience to showcase our creative approach</p>
+                            <p>A digital experience to<br/>showcase our approach<br/>to building tech</p>
                         </article>
                         <article>
-                            <a href="https://www.stefanhranek.com"></a>
+                            <a href="https://www.stefanhranek.com">www.stefco.com</a>
                         </article>
                     </div>
                     <div>
@@ -33,9 +33,11 @@ export default class Contact extends Component {
                             <h5>Start a conversation</h5>
                             <a href="mailto:hranekstefan@gmail.com">hranekstefan@gmail.com</a>
                         </article>
-                        <p>Don't be shy,<br/>send us a message!</p>
+                        <article>
+                            <p className="emailMessage">Have questions?<br/>Send us a message!</p>
+                        </article>
                     </div>
-                    <div>
+                    <div className="socialLinks">
                         <a href="#">Dribbble</a>
                         <a href="#">Behance</a>
                         <a href="#">Facebook</a>

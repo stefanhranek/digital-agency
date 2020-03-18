@@ -69,6 +69,103 @@
   left: -2px;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10%;
+}
+
+.contact p, .contact h5, .contact a {
+  color: white;
+}
+
+.contact .title {
+  position: block;
+  font-size: 120px;
+  z-index: 1;
+  font-family: sunflower;
+  line-height: 1em;
+  margin: 0;
+  color: white;
+}
+
+.contact .titleLink {
+  color: #513AA6;
+  font-size: 120px;
+  font-family: sunflower;
+  line-height: 1em;
+}
+
+.contact .topContact {
+  height: 800px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.contact .bottomContact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contact .bottomContact a, .contact .bottomContact h5 {
+  font-family: sunflower;
+  color: #FFFFFF;
+}
+
+.contact p {
+  font-family: Lato;
+  color: #C6C6C6;
+}
+
+.contact .socialLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.contact h5 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.contact .emailMessage {
+  margin-top: 25px;
+}
+
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
