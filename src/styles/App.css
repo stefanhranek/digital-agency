@@ -466,21 +466,21 @@
           flex-direction: column;
   height: 100vh;
   width: auto;
-  overflow: hidden;
   padding-left: 0%;
+  overflow: hidden;
 }
 
-.projects .topServices {
-  margin: 0 10%;
+.projects .topProjects {
+  width: 100%;
+  padding: 0 8%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .projects .title {
@@ -510,12 +510,6 @@
   z-index: 1;
   top: 125px;
   left: -2px;
-}
-
-.projects .topProjects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .projects button {
@@ -665,11 +659,11 @@
   padding-bottom: 75px;
 }
 
-.projectCard .imageContainer {
+.projectCard .projectImageContainer {
   position: absolute;
 }
 
-.projectCard .imageContainer::before {
+.projectCard .projectImageContainer::before {
   position: absolute;
   top: -3%;
   left: -2%;
