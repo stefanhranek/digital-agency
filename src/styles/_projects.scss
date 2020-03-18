@@ -1,6 +1,8 @@
 
 .projects {
     @include page($mainBG, column, 100vh, auto);
+    overflow:hidden;
+    padding-left: 0%;
     .topServices {
       margin: 0 10%;
       display: flex;
@@ -42,5 +44,6 @@
     .projectCardContainer {
         display: flex;
         flex-direction: row;
+        padding-left: 25%;
     }
 }

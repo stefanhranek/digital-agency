@@ -1,23 +1,66 @@
 .projectCard {
+    height: auto;
+    width: 800px;
     margin:100px;
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $accent7;
+    
+    section {
+        width: 50%;
+        height: 449px;
+        padding:20px 20px 0 20px;
+        margin: 0;
+        img {
+            margin: 0;
+            padding: 0;
+            align-self: flex-end;
+            height: 100%;
+        }
+        .right {
+            justify-self: flex-end;
+        }
+    }
     .title {
+        margin: 0;
+        
         position: relative;
         font-size: 130px;
         z-index: 1;
         font-family: recoleta;
-        font-size: 38px
+        font-weight: lighter;
+        font-size: 38px;
+        color: white;
     }
     
     .description {
-        font-size: 24px;
+        margin: 0;
+        font-size: 19px;
         font-family: Lato;
         line-height: 1.5em;
-        color: $text;
+        color: white;
     }
     
     .subtitle {
         @include subText();
         text-align: left;
+        margin: 0;
         padding: 0;
+        color: white;
+    }
+    button {
+        margin: 0;
+        @include button(white, black);
+        padding: 12.5px 25px;
+        font-size: 14px;
+        align-self: flex-start;
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 75px;
     }
 }

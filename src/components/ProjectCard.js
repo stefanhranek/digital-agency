@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import rightArrow from "../images/arrowRight.svg";
+import projectCardImage from "../images/projectCard.png"
 
 export default class ProjectCard extends Component {
   render() {
     return (
       <div className="projectCard">
-        <section>
+        <section className="left">
           <p className="subtitle">WEB DESIGN</p>
           <h3 className="title">
-            Spotcheck provides
+            Spotcheck gives
             <br />
-            skateboarders a map
-            <br /> to the city's best spots
+            skaters a map
+            <br /> to the best spots
           </h3>
           <p className="description">
             Explore, discover, create, share.
@@ -23,7 +24,9 @@ export default class ProjectCard extends Component {
             Visit The Website
           </button>
         </section>
-        <img src="" alt="" />
+        <section className="right">
+            <img src={projectCardImage} alt="app screenshot" />
+        </section>
       </div>
     )
   }
