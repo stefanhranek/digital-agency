@@ -60,6 +60,8 @@
         align-self: flex-start;
         font-family: recoletta;
         font-weight: bold;
+        z-index:10;
+        cursor: pointer;
         img {
             height: 28px;
             width: 28px;
