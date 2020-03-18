@@ -19,28 +19,27 @@
             align-self: flex-end;
             height: 100%;
         }
+        .title {
+            margin: 0;
+            position: relative;
+            font-size: 130px;
+            z-index: 1;
+            font-family: recoletta;
+            font-size: 40px;
+            color: white;
+        }
         .right {
             justify-self: flex-end;
         }
     }
-    .title {
-        margin: 0;
-        
-        position: relative;
-        font-size: 130px;
-        z-index: 1;
-        font-family: recoleta;
-        font-weight: lighter;
-        font-size: 38px;
-        color: white;
-    }
     
     .description {
         margin: 0;
-        font-size: 19px;
+        font-size: 16px;
         font-family: Lato;
         line-height: 1.5em;
         color: white;
+        letter-spacing: 1.2px;
     }
     
     .subtitle {
@@ -53,9 +52,15 @@
     button {
         margin: 0;
         @include button(white, black);
-        padding: 12.5px 25px;
-        font-size: 14px;
+        padding: 10px 20px;
+        font-size: 16px;
         align-self: flex-start;
+        font-family: recoletta;
+        font-weight: bold;
+        img {
+            height: 28px;
+            width: 28px;
+        }
     }
     .left {
         display: flex;

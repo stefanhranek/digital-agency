@@ -585,27 +585,27 @@
   height: 100%;
 }
 
-.projectCard section .right {
-  justify-self: flex-end;
-}
-
-.projectCard .title {
+.projectCard section .title {
   margin: 0;
   position: relative;
   font-size: 130px;
   z-index: 1;
-  font-family: recoleta;
-  font-weight: lighter;
-  font-size: 38px;
+  font-family: recoletta;
+  font-size: 40px;
   color: white;
+}
+
+.projectCard section .right {
+  justify-self: flex-end;
 }
 
 .projectCard .description {
   margin: 0;
-  font-size: 19px;
+  font-size: 16px;
   font-family: Lato;
   line-height: 1.5em;
   color: white;
+  letter-spacing: 1.2px;
 }
 
 .projectCard .subtitle {
@@ -633,15 +633,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 12.5px 25px;
-  font-size: 14px;
+  padding: 10px 20px;
+  font-size: 16px;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  font-family: recoletta;
+  font-weight: bold;
 }
 
 .projectCard button img {
   margin: 0;
   padding-right: 10px;
+}
+
+.projectCard button img {
+  height: 28px;
+  width: 28px;
 }
 
 .projectCard .left {
