@@ -4,8 +4,6 @@ import IconHome2 from '../components/IconHome2'
 import IconHome3 from '../components/IconHome3'
 import homeImage from '../images/homeImage.svg';
 
-console.log(homeImage,'HERERERERERE');
-
 export default class Home extends Component {
     render() {
         return (

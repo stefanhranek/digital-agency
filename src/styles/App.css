@@ -1,4 +1,78 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FDF3E5;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+  width: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10%;
+}
+
+.about button {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 25px;
+  padding: 20px 40px;
+}
+
+.about .title {
+  position: relative;
+  font-size: 80px;
+  z-index: 1;
+}
+
+.about .description {
+  font-size: 26px;
+  font-family: Sophillia;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  color: #535353;
+}
+
+.about .subtitle {
+  font-family: Sophillia;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 0 0 150px;
+  margin: 0;
+}
+
+.about button {
+  background: #513AA6;
+}
+
+.about .circle {
+  width: 130px;
+  height: 130px;
+  background: transparent;
+  border-radius: 50%;
+  border: solid 20px #FFD491;
+  position: relative;
+  z-index: 1;
+  top: 125px;
+  left: -2px;
+}
+
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
