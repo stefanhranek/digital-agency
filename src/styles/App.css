@@ -403,7 +403,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px 10%;
+  padding: 20px 10%;
   z-index: 99999999;
 }
 
@@ -417,14 +417,14 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .navbar ul li {
   margin: 0;
   padding: 30px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   color: #273555;
 }
 
@@ -441,6 +441,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px 20px;
 }
 
 .navbar button img {
