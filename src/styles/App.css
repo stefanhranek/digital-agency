@@ -548,6 +548,60 @@
   background-color: #FF7F5C;
 }
 
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+  width: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10%;
+}
+
+.blog .title {
+  font-size: 36px;
+  font-family: sophillia;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  line-height: 1.5em;
+}
+
+.blog article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog article button {
+  margin: auto;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.blog .name {
+  font-family: sunflower;
+  font-size: 38px;
+  color: #513AA6;
+}
+
+.blog h4 {
+  color: #535353;
+}
+
 @font-face {
   src: url(../fonts/Mogena.ttf);
   font-family: Mogena;

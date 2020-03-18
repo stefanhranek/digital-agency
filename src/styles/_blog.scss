@@ -1,0 +1,29 @@
+.blog {
+    @include page(white, row, 100vh, auto);
+    justify-content: space-between;
+    padding: 10%;
+    .title {
+        font-size: 36px;
+        font-family: sophillia;
+        font-weight: bold;
+        letter-spacing: 1.7px;
+        line-height: 1.5em;
+    }
+    article {
+        display: flex;
+        button {
+            margin: auto;
+            padding: 0;
+            height: 30px;
+            width: 30px;
+        }
+    }
+    .name {
+        font-family: sunflower;
+        font-size: 38px;
+        color: $accent2
+    }
+    h4 {
+        color: $text;
+    }
+}
