@@ -33,7 +33,7 @@ export default class Blog extends Component {
               <h3 className="name">Stefan Hranek</h3>
               <h4>LEAD UX DESIGNER, APPLE</h4>
             </div>
-            <button>
+            <button className="hvr-bob">
               <img src={rightArrow} alt="right arrow" />
             </button>
           </article>
