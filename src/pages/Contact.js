@@ -7,7 +7,9 @@ export default class Contact extends Component {
                 <div className="contactBorder">
                     <section className="topContact">
                         <p className="title">We're here to help<br/>manifest your ideas.</p>
-                        <a className="titleLink" href="#">Start a Project</a>
+                        <article>
+                            <a className="titleLink" href="#">Start a Project</a>
+                        </article>
                     </section>
                 </div>
                 <section className="bottomContact">
