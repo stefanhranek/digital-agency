@@ -6,6 +6,10 @@
         @include button(black,white);
         margin-top: 55px;
         padding: 20px 40px;
+        &:hover {
+            border: 5px solid $accent3;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+        }
     }
 }
 
