@@ -51,26 +51,26 @@
       margin: 50px;
       padding: 40px;
       // border: silver 1px solid;
-      box-shadow: (0 30px 50px 15px #ECECEC);
+      box-shadow: (0 30px 50px 15px #ececec);
       p {
         font-family: Sunflower;
         font-size: 24px;
         font-weight: bold;
         margin: 0;
-        z-index:2;
+        z-index: 2;
       }
       img {
         margin: 0;
         padding: 0;
         width: 52px;
-        z-index:2;
+        z-index: 2;
       }
       .rectangle {
         width: 150px;
         height: 75px;
         background-color: $accent4;
         position: absolute;
-        margin-left:25px;
+        margin-left: 25px;
       }
       .two {
         background-color: $accent3;
@@ -78,6 +78,16 @@
 
       .three {
         background-color: $accent5;
+      }
+      transition: all 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.05, 1.05);
+        div,
+        section {
+          transition: all 0.5s ease;
+          transform: scale(1.05);
+        }
       }
     }
   }

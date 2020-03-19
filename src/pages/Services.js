@@ -25,37 +25,49 @@ export default class Services extends Component {
             <div className="rectangle" />
             <img src={serviceImage} alt="icon" />
             <p>Brand Identity</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
           <article className="serviceTab">
             <div className="rectangle two" />
             <img src={serviceImage2} alt="icon" />
             <p>Product Design</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
           <article className="serviceTab">
             <div className="rectangle three" />
             <img src={serviceImage3} alt="icon" />
             <p>UX/UI Design</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
           <article className="serviceTab">
             <div className="rectangle three" />
             <img src={serviceImage4} alt="icon" />
             <p>Web Design</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
           <article className="serviceTab">
             <div className="rectangle" />
             <img src={serviceImage5} alt="icon" />
             <p>App Design</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
           <article className="serviceTab">
             <div className="rectangle two" />
             <img src={serviceImage6} alt="icon" />
             <p>Development</p>
-            <IconService />
+            <section>
+              <IconService />
+            </section>
           </article>
         </section>
       </div>
