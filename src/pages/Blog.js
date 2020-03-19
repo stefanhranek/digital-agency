@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import homeImage from "../images/homeImage.svg";
+import blogImage2 from "../images/blogImage2.svg";
 import rightArrow from "../images/arrowRight.svg";
 
 export default class Blog extends Component {
@@ -8,7 +8,7 @@ export default class Blog extends Component {
       <div className="blog">
         <section className="imageContainer">
           <div className="homeImage">
-            <img src={homeImage} alt="" />
+            <img src={blogImage2} alt="" />
             <p className="sidewaysText">EXPLORE AND CREATE!</p>
           </div>
         </section>

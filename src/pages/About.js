@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import IconHome1 from "../components/IconHome1"
 import IconHome2 from "../components/IconHome2"
 import IconHome3 from "../components/IconHome3"
-import homeImage from "../images/homeImage.svg"
+import aboutImage2 from "../images/aboutImage2.svg"
 import rightArrow from "../images/arrowRight.svg"
 
 export default class About extends Component {
@@ -11,7 +11,7 @@ export default class About extends Component {
       <div className="about">
         <section className="imageContainer">
           <div className="homeImage">
-            <img src={homeImage} alt="" />
+            <img src={aboutImage2} alt="abstract drawing" />
             <p className="sidewaysText">EXPLORE AND CREATE!</p>
           </div>
         </section>
