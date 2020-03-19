@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import dots from './../images/10dots.svg';
 
 export default class Contact extends Component {
     render() {
@@ -13,6 +14,7 @@ export default class Contact extends Component {
                     </section>
                 </div>
                 <section className="bottomContact">
+                    <img id="dots" src={dots} alt="dots"/>
                     <div>
                         <article>
                             <h5>San Diego</h5>

@@ -176,7 +176,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 120vh;
+  height: 140vh;
   width: auto;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -237,6 +237,7 @@
 
 .contact .bottomContact {
   margin: auto;
+  padding-left: 200px;
   height: auto;
   width: 100%;
   display: -webkit-box;
@@ -299,6 +300,14 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23513AA6' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-size: auto 35px;
   text-decoration: none;
+}
+
+.contact #dots {
+  position: absolute;
+  height: 300px;
+  width: 70px;
+  padding-top: 50px;
+  left: 10%;
 }
 
 .home {
