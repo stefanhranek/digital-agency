@@ -5,7 +5,12 @@
   padding: 20px 10%;
   z-index: 99999999;
   h1 {
+    cursor: pointer;
     margin: 0;
+    &:hover {
+      text-shadow: 0 2px 1px $accent3, 0 4px 1px $accent2,0 6px 1px $accent4,0 8px 1px $accent5;
+      transform: scale(1.5);
+    }
   }
   ul {
     margin: 0;
