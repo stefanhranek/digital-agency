@@ -7,7 +7,7 @@ export default class Navbar extends Component {
       <div className="navbar">
         <h1>stefco</h1>
         <ul>
-          <li>About</li>
+          <li className="underline">About</li>
           <li>Service</li>
           <li>Work</li>
           <li>Blog</li>

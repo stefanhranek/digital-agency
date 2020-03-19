@@ -23,7 +23,7 @@ export default class Services extends Component {
         <section className="serviceTabContainer">
           <article className="serviceTab">
             <div className="rectangle" />
-            <img src={serviceImage} alt="icon" />
+            <img src={serviceImage5} alt="icon" />
             <p>Brand Identity</p>
             <section>
               <IconService />
@@ -31,7 +31,7 @@ export default class Services extends Component {
           </article>
           <article className="serviceTab">
             <div className="rectangle two" />
-            <img src={serviceImage2} alt="icon" />
+            <img src={serviceImage3} alt="icon" />
             <p>Product Design</p>
             <section>
               <IconService />
@@ -39,7 +39,7 @@ export default class Services extends Component {
           </article>
           <article className="serviceTab">
             <div className="rectangle three" />
-            <img src={serviceImage3} alt="icon" />
+            <img src={serviceImage2} alt="icon" />
             <p>UX/UI Design</p>
             <section>
               <IconService />
@@ -55,7 +55,7 @@ export default class Services extends Component {
           </article>
           <article className="serviceTab">
             <div className="rectangle" />
-            <img src={serviceImage5} alt="icon" />
+            <img src={serviceImage} alt="icon" />
             <p>App Design</p>
             <section>
               <IconService />
