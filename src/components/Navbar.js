@@ -1,11 +1,13 @@
 import React, { Component } from "react"
-import rightArrow from "../images/arrowRight.svg"
+import rightArrow from "../images/arrowRight.svg";
+import HamburgerMenu from "./HamburgerMenu";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
         <h1>stefco</h1>
+        {/* <HamburgerMenu/> */}
         <ul>
           <li className="underline">About</li>
           <li>Service</li>

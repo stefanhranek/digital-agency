@@ -12,11 +12,13 @@ import Projects from "./Projects"
 import Blog from "./Blog"
 import Contact from "./Contact"
 import Companies from "./../components/Companies"
-import Navbar from "./../components/Navbar"
+import Navbar from "./../components/Navbar";
+import HamburgerMenu from "./../components/HamburgerMenu";
 
 const IndexPage = () => (
   <div>
     <SEO title="Home" />
+    <HamburgerMenu />
     <Navbar />
     <Home />
     <Companies />
