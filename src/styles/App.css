@@ -966,11 +966,27 @@
 }
 
 .companiesSection ul li {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin: 0;
-  padding: 30px 100px;
+  padding: 45px 85px;
   font-weight: bold;
   font-size: 20px;
   color: #565A97;
+}
+
+.companiesSection ul li img {
+  height: 50px;
+  width: auto;
+}
+
+.companiesSection ul li #paypal {
+  height: 40px;
+}
+
+.companiesSection ul li #artesal {
+  height: 35px;
 }
 
 * {
