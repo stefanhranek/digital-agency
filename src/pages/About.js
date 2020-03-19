@@ -3,6 +3,7 @@ import IconHome1 from "../components/IconHome1"
 import IconHome2 from "../components/IconHome2"
 import IconHome3 from "../components/IconHome3"
 import aboutImage2 from "../images/aboutImage2.svg"
+import aboutDrawing from "../images/aboutDrawing.png"
 import rightArrow from "../images/arrowRight.svg"
 
 export default class About extends Component {
@@ -12,7 +13,8 @@ export default class About extends Component {
         <section className="imageContainer">
           <div className="homeImage">
             <img src={aboutImage2} alt="abstract drawing" />
-            <p className="sidewaysText">EXPLORE AND CREATE!</p>
+            <img className="circleDrawing" src={aboutDrawing} alt="abstract drawing" />
+            {/* <p className="sidewaysText">EXPLORE AND CREATE!</p> */}
           </div>
         </section>
         <section>
