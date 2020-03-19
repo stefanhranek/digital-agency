@@ -700,6 +700,18 @@
   z-index: 10;
 }
 
+.p2 {
+  background-color: #FFD491;
+}
+
+.p2 h3.title, .p2 .description, .p2 .subtitle {
+  color: black;
+}
+
+.p2 .projectImageContainer {
+  border: 5.5px solid #565A97;
+}
+
 .services {
   display: -webkit-box;
   display: -ms-flexbox;

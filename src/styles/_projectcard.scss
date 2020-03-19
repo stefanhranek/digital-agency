@@ -85,3 +85,13 @@
         z-index:10;
       }
 }
+
+.p2 {
+    background-color: $accent3;
+    h3.title, .description, .subtitle {
+        color: black;
+    }
+    .projectImageContainer {
+        border:5.5px solid $accent7;
+    }
+}

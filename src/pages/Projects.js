@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
+import ProjectCard2 from "../components/ProjectCard2";
 import rightArrow from "../images/arrowRight.svg";
 
 export default class Projects extends Component {
@@ -19,7 +20,7 @@ export default class Projects extends Component {
         </section>
         <section className="projectCardContainer">
           <ProjectCard />
-          <ProjectCard />
+          <ProjectCard2 />
         </section>
       </div>
     )
