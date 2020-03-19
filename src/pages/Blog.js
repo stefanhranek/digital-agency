@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import blogImage2 from "../images/blogImage2.svg";
+import blogCircle from "../images/blogCircle.svg";
+import blogInnerCircle from "../images/blogInnerCircle.png";
 import rightArrow from "../images/arrowRight.svg";
 
 export default class Blog extends Component {
@@ -8,8 +10,10 @@ export default class Blog extends Component {
       <div className="blog">
         <section className="imageContainer">
           <div className="homeImage">
-            <img src={blogImage2} alt="" />
-            <p className="sidewaysText">EXPLORE AND CREATE!</p>
+            <img src={blogImage2} alt="abstract drawing" />
+            <img className="circleDrawing" src={blogCircle} alt="circle drawing" />
+            <img className="circleDrawing inner" src={blogInnerCircle} alt="inner circle drawing" />
+            {/* <p className="sidewaysText">EXPLORE AND CREATE!</p> */}
           </div>
         </section>
         <section>
