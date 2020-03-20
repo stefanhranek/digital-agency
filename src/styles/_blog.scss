@@ -3,12 +3,12 @@
     justify-content: space-evenly;
     padding: 0;
     .title {
-        font-size: 36px;
+        font-size: 1.85vw;
         font-family: mackay;
         font-weight: bold;
-        letter-spacing: 1.7px;
+        letter-spacing: .1vw;
         line-height: 1.5em;
-        margin-bottom: 80px;
+        margin-bottom: 4vw;
     }
     article {
         margin: auto;
@@ -19,30 +19,31 @@
             display: flex;
             align-items: center;
             margin: auto 0;
-            padding: 15px 25px;
+            padding: .76vw 1.45vw;
             height: auto;
             width: auto;
             background-color: $accent2;
             border: none;
             img {
                 margin: auto;
-                height: 30px;
-                width: 30px;
+                height: 1.6vw;
+                width: 1.6vw;
             }
             &:hover {
-                filter: drop-shadow(0 0 5px $accent7);
+                filter: drop-shadow(0 0 .2vw $accent7);
             }
         }
     }
     .name {
         font-family: sunflower;
-        font-size: 42px;
+        font-size: 2.3vw;
         color: $accent2;
-        margin-bottom:15px;
+        margin-bottom:.9vw;
     }
     h4 {
         color: $text;
-        letter-spacing: 1.5px;
+        letter-spacing: .1vw;
+        font-size: .9vw;
         margin: 0
     }
     .inner {
