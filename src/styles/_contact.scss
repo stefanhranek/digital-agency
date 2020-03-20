@@ -8,7 +8,7 @@
     }
     .title {
         position: block;
-        font-size: 120px;
+        font-size: 6.23vw;
         z-index: 1;
         font-family: sunflower;
         line-height: 1em;
@@ -17,14 +17,14 @@
     }
     .titleLink {
         color: $accent2;
-        font-size:120px;
+        font-size: 6.23vw;
         font-family: sunflower;
         line-height: 1em;
     }
     .topContact {
         display: flex;
         flex-direction: column;
-        height: 50vh;
+        height: 25vw;
         margin: 8% 0 5% 10%;
         padding: auto;
         justify-content: center;
