@@ -3,12 +3,12 @@ import { slide as Menu } from 'react-burger-menu'
 
 var styles = {
     bmBurgerButton: {
-      position: 'fixed',
+      position: 'absolute',
       width: '36px',
       height: '30px',
       right: '36px',
-      top: '36px',
-      zIndex: '100000',
+   
+      zIndex: '88888',
     },
     bmBurgerBars: {
       background: '#373a47'
@@ -44,7 +44,8 @@ var styles = {
       display: 'inline-block',
       color: '#273555',
       fontWeight: 'bold',
-      listStyle:'none'
+      listStyle:'none',
+      zIndex: '99999',
     },
     bmOverlay: {
       background: 'rgba(0, 0, 0, 0.3)'
@@ -52,10 +53,9 @@ var styles = {
   }
 
 export default class HamburgerMenu extends Component {
-  showSettings (event) {
-    event.preventDefault();
-
-  }
+  // showSettings (event) {
+  //   event.preventDefault();
+  // }
  
   render () {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling

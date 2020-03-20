@@ -18,7 +18,7 @@ import HamburgerMenu from "./../components/HamburgerMenu";
 const IndexPage = () => (
   <div>
     <SEO title="Home" />
-    <HamburgerMenu  className="burger"/>
+    <HamburgerMenu />
     <Navbar />
     <Home />
     <Companies />

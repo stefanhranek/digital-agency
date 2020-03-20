@@ -7,8 +7,7 @@ export default class Navbar extends Component {
     return (
       <div className="navbar">
         <h1>stefco</h1>
-        {/* <HamburgerMenu/> */}
-        <ul>
+        <ul className="topNav">
           <li className="underline">About</li>
           <li>Service</li>
           <li>Work</li>

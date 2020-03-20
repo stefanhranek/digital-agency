@@ -12,32 +12,27 @@
      z-index: 9999999999999999;
    }
  
- // .burger {
- //   display: none;
- //   position: none;
- //   visibility: hidden;
- // }
-
-
-
- .bmBurgerButton {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    right: 36px;
-    top: 36px;
-    z-Index: 1000000000000;
-  }
-  .bmBurgerBars {
-    background: #373a47
-  }
-  .bmBurgerBarsHover {
-    background: #a90000
-  }
-  .bmCrossButton {
-    height: 24px;
-    width: 24px
-  }
+   
+   
+   
+   div.bm-burger-button{
+     position: fixed;
+     width: 36px;
+     height: 30px;
+     right: 36px;
+     top: -30px;
+    //  top: 36px;
+    }
+    .bmBurgerBars {
+      background: #373a47
+    }
+    .bmBurgerBarsHover {
+      background: #a90000
+    }
+    .bmCrossButton {
+      height: 24px;
+      width: 24px
+    }
   .bmCross {
     background: #bdc3c7
   }
@@ -66,4 +61,20 @@
   }
   .bmOverlay {
     background: rgba(0, 0, 0, 0.3);
+  }
+
+
+
+// hides hamburger menu for desktop screen & hides normal navbar for smaller viewports
+  @media only screen and (max-width: 800px) {
+    div.bm-burger-button{
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      right: 36px;
+      top: 36px;
+     }
+     ul.topNav {
+       display: none;
+     }
   }
