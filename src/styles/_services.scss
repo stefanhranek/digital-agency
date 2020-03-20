@@ -1,7 +1,7 @@
 .services {
   @include page(white, column, 100vh, auto);
   .topServices {
-    margin: 0 10vw;
+    margin: 0 0 0 10vw;
     display: flex;
     flex-direction: column;
     align-self: flex-start;

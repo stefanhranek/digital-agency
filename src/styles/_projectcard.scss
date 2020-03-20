@@ -1,9 +1,9 @@
 .projectCard {
     position: relative;
     height: auto;
-    width: 950px;
-    margin:100px;
-    padding: 50px 40px 0 70px;
+    width: 49.7vw;
+    margin: 5.2vw;
+    padding: 2.6vw 2.1vw 0 3.65vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -11,8 +11,8 @@
     
     section {
         width: 50%;
-        height: 449px;
-        padding:20px 20px 0 20px;
+        height: 23.5vw;
+        padding:1.01vw 1.01vw 0 1.01vw;
         margin: 0;
         img {
             margin: 0;
@@ -23,12 +23,11 @@
         .title {
             margin: 0;
             position: relative;
-            font-size: 130px;
             z-index: 1;
             font-family: recoletta;
-            font-size: 40px;
+            font-size: 2.1vw;
             color: white;
-            letter-spacing: 1.2px;
+            letter-spacing: .06vw;
         }
         .right {
             justify-self: flex-end;
@@ -37,11 +36,11 @@
     
     .description {
         margin: 0;
-        font-size: 16px;
+        font-size: .83vw;
         font-family: Lato;
         line-height: 1.5em;
         color: white;
-        letter-spacing: 1.2px;
+        letter-spacing: .06vw;
     }
     
     .subtitle {
@@ -50,28 +49,28 @@
         margin: 0;
         padding: 0;
         color: white;
-        font-size: 16px;
+        font-size: .83vw;
     }
     button {
-        margin: 0;
+        margin: .5vw 0 0 0;
         @include button(white, black);
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: .5vw 1.05vw;
+        font-size: .83vw;
         align-self: flex-start;
         font-family: recoletta;
         font-weight: bold;
         z-index:10;
         cursor: pointer;
         img {
-            height: 28px;
-            width: 28px;
+            height: 1.4vw;
+            width: 1.4vw;
         }
     }
     .left {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-bottom: 75px;
+        padding-bottom: 3vw;
     }
 
 
@@ -79,7 +78,7 @@
         width:100%;
         height:100%;
         position:absolute;
-        border:5.5px solid black;
+        border:.35vw solid black;
         top:7%;
         left:4.5%;
         z-index:10;
@@ -92,6 +91,6 @@
         color: black;
     }
     .projectImageContainer {
-        border:5.5px solid $accent7;
+        border:.35vw solid $accent7;
     }
 }

@@ -4,44 +4,38 @@
     padding-left: 0%;
     .topProjects {
       width: 100%;
-      padding: 0 8%;
+      margin: 0 8vw;
       display: flex;
       align-self: flex-start;
-      justify-content: space-between;
+      // justify-content: space-between;
     }
     .title {
       text-align: left;
       position: relative;
-      font-size: 70px;
+      font-size: 3.65vw;
       z-index: 1;
     }
     .subtitle {
       @include subText();
       text-align: left;
-      padding: 0 0 0 150px;
+      padding: 0 0 0 7.85vw;
       margin: 0;
     }
     .circle {
-      width: 130px;
-      height: 130px;
-      background: transparent;
-      border-radius: 50%;
-      border: solid 20px $accent3;
-      position: relative;
-      z-index: 1;
-      top: 125px;
-      left: -2px;
+      @include circle();
+      top: 6.5vw;
+      left: -.65vw;
     }
     button {
       @include button($accent2,white);
-      margin: 35px;
-      padding: 20px 40px;
+      margin: 1.8vw 0  1.8vw 35vw;
+      // padding: 20px 40px;
       align-self: flex-end;
     }
     .projectCardContainer {
       display: flex;
       flex-direction: row;
-      padding-left: 25%;
+      margin-left: 25vw;
     }
     overflow:hidden;
   }
