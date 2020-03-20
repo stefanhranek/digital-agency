@@ -8,7 +8,7 @@ var styles = {
       height: '30px',
       right: '36px',
       top: '36px',
-      zIndex: '1000000000000'
+      zIndex: '1000000000000',
     },
     bmBurgerBars: {
       background: '#373a47'
@@ -44,7 +44,6 @@ var styles = {
       display: 'inline-block',
       color: '#273555',
       fontWeight: 'bold',
-      fontSize: '18px',
       listStyle:'none'
     },
     bmOverlay: {
@@ -61,7 +60,7 @@ export default class HamburgerMenu extends Component {
   render () {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
-      <Menu right styles={ styles }>
+      <Menu right styles={ styles } className="burger">
         <ul className="bmItemList">
           <li className="bmItem">About</li>
           <li className="bmItem">Service</li>
