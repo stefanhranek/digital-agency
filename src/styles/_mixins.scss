@@ -26,13 +26,14 @@
     background: $bg-color;
     color: $text-color;
     font-weight: bold;
-    padding: 15px 30px;
     border-radius: 50px;
     border: none;
     display: flex;
     align-items: center;
     transition: all .2s ease;
     border: 5px solid transparent;
+    padding: .7vw 2vw;
+    font-size:1vw;
     cursor: pointer;
     img {
         margin:0;
