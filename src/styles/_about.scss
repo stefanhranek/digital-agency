@@ -29,6 +29,13 @@
   .circle {
     @include circle();
   }
+
+  .imageContainer {
+    display: inline-block;
+    position: relative;
+    height: 30.2vw;
+    width: 22vw;
+  }
 }
 
 .circleDrawing {

@@ -29,7 +29,7 @@ export default class Home extends Component {
             </button>
           </section>
           <section className="imageContainer">
-            <div className="homeImage">
+            <div className="homeImageBackground">
               <img className="homeImage" src={homeImage} alt="" />
               <div className="tabContainer">
                 <div className="homeImageTab one">

@@ -50,7 +50,8 @@
     background: $mainBG;
 }
 
-.homeImage {
+div.homeImageBackground {
+    height: 94%;
     background: rgb(240,240,240);
     background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgb(240, 240, 240) 10%, rgba(240,240,240,0) 100%);
 }
@@ -64,7 +65,7 @@
     .one {
         position: absolute;
         top: 13%;
-        left: -4vw;
+        left: -4.4vw;
     }
     .two {
         position: absolute;
@@ -74,7 +75,7 @@
     .three {
         position: absolute;
         top: 77%;
-        left: -4vw;
+        left: -4.4vw;
     }
 }
 
@@ -100,7 +101,7 @@
 .imageContainer {
     display: inline-block;
     position: relative;
-    height: auto;
+    height: 32vw;
     width: 22vw;
   }
   
@@ -119,15 +120,15 @@
     font-weight: bold;
     transform: rotate(-90deg);
     position: absolute;
-    bottom: 25%;
+    bottom: 8.7vw;
     right: -10.4vw;
     font-size: 1.25vw;
     font-family: Sophillia;
     margin: 0;
 }
 
-.homeImage{
-    height: 100%;
+img.homeImage{
+    height: 32vw;
     width: 100%;
 }
 
