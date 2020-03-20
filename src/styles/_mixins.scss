@@ -11,8 +11,15 @@
 @mixin subText {
     font-family: Sophillia;
     letter-spacing: 6px;
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: bold;
+}
+
+@mixin description {
+    font-size: 2vw;
+    font-family: sophillia;
+    line-height: 1.5em;
+    color: $text;
 }
 
 @mixin button($bg-color, $text-color) {

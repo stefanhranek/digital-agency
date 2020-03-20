@@ -30,7 +30,7 @@ export default class Home extends Component {
           </section>
           <section className="imageContainer">
             <div className="homeImage">
-              <img src={homeImage} alt="" />
+              <img className="homeImage" src={homeImage} alt="" />
               <div className="tabContainer">
                 <div className="homeImageTab one">
                   <div className="square">

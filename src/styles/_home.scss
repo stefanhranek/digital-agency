@@ -1,11 +1,12 @@
 .home {
     @include page($mainBG, row, 100vh, auto);
     justify-content: space-between;
-    padding: 10%;
+    align-items: flex-start;
+    padding: 180px 10%;
     button {
         @include button(black,white);
         margin-top: 55px;
-        padding: 20px 40px;
+        padding: 20px 2.5vw;
         &:hover {
             border: 5px solid $accent3;
             box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
@@ -20,25 +21,22 @@
 }
 
 .description {
-    font-size: 38px;
-    font-family: sophillia;
-    line-height: 1.5em;
-    color: $text;
+    @include description();
 }
 
 .subtitle {
     @include subText();
-    text-align: center;
-    padding-right: 120px;
+    text-align: left;
+    padding-left: 25%;
 }
 
 
 .circle {
-    width: 180px;
-    height: 180px;
+    width: 10vw;
+    height: 10vw;
     background: transparent;
     border-radius: 50%;
-    border: solid 30px $accent3;
+    border: solid 1.75vw $accent3;
     position: absolute;
     z-index: 1;
     top:190px;
@@ -46,8 +44,8 @@
   }
 
 .square {
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 10px;
     background: $mainBG;
 }
@@ -55,38 +53,37 @@
 .homeImage {
     background: rgb(240,240,240);
     background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgb(240, 240, 240) 10%, rgba(240,240,240,0) 100%);
-    height: 550px;
-    width: 450px;
 }
 
 .tabContainer {
     margin-top: 15%;
-    height: 100%;
+    height: auto;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .one {
         position: absolute;
         top: 13%;
-        left: -100px;
+        left: -4vw;
     }
     .two {
         position: absolute;
         top: 44%;
-        left: -200px;
+        left: -10vw;
     }
     .three {
         position: absolute;
         top: 77%;
-        left: -100px;
+        left: -4vw;
     }
 }
 
 .homeImageTab {
     article {
-        margin: 20px auto;
+        margin: .8vw 1.5vw;
         font-family: Sunflower;
-        font-size: 24px;
+        font-size: 1.5vw;
         font-weight: bold;
         letter-spacing: 1.25px;
     }
@@ -94,16 +91,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: .8vw auto;
     border-radius: 10px;
-    padding: 12px;
-    width: 300px;
+    padding: .8vw 1vw;
+    width: auto;
     background: white;
 }
 
 .imageContainer {
     display: inline-block;
     position: relative;
+    height: auto;
+    width: 22vw;
   }
   
   .imageContainer::before {
@@ -111,8 +110,8 @@
     top: 7%;
     right: -10%;
     width: 100%;
-    height: 113%;
-    border: 6px solid $accent7;
+    height: 100%;
+    border: .5vw solid $accent7;
     content: '';
   }
 
@@ -121,11 +120,52 @@
     font-weight: bold;
     transform: rotate(-90deg);
     position: absolute;
-    bottom: 80px;
-    right: -159px;
+    bottom: 25%;
+    right: -10.4vw;
+    font-size: 1.25vw;
     font-family: Sophillia;
+    margin: 0;
+}
+
+.homeImage{
+    height: 100%;
+    width: 100%;
 }
 
 .drawing {
     z-index: 9999;
+
 }
+
+
+
+// media queries
+
+@media only screen and (max-width: 1550px) {
+    .sidewaysText {
+        right: -10.5vw;
+    }
+  }
+
+  @media only screen and (max-width: 1350px) {
+    .sidewaysText {
+        right: -11vw;
+    }
+  }
+
+  @media only screen and (max-width: 1110px) {
+    .sidewaysText {
+        right: -11.5vw;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .sidewaysText {
+        right: -12vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .sidewaysText {
+        right: -12.8vw;
+    }
+  }
