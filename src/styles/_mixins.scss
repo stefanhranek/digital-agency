@@ -22,6 +22,18 @@
     color: $text;
 }
 
+@mixin circle {
+    width: 6.8vw;
+    height: 6.8vw;
+    background: transparent;
+    border-radius: 50%;
+    border: solid 1.1vw $accent3;
+    position: relative;
+    z-index: 1;
+    top: 6.5vw;
+    left: -.1vw;
+}
+
 @mixin button($bg-color, $text-color) {
     background: $bg-color;
     color: $text-color;

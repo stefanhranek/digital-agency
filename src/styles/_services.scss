@@ -1,7 +1,7 @@
 .services {
   @include page(white, column, 100vh, auto);
   .topServices {
-    margin: 0 10%;
+    margin: 0 10vw;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -9,30 +9,23 @@
   .title {
     text-align: left;
     position: relative;
-    font-size: 70px;
+    font-size: 4.2vw;
     z-index: 1;
   }
   .subtitle {
     @include subText();
-    text-align: left;
-    padding: 0 0 0 150px;
-    margin: 0;
+    padding: 0 0 0 6vw;
+    margin: 0 0 0 1vw;
   }
   .circle {
-    width: 130px;
-    height: 130px;
-    background: transparent;
-    border-radius: 50%;
-    border: solid 20px $accent3;
-    position: relative;
-    z-index: 1;
-    top: 125px;
-    left: -2px;
+    @include circle();
+    top: 6.7vw;
+    left: -.7vw;
   }
 
   .arrowButton {
-    height: 50px;
-    width: 50px;
+    height: 2.64vw;
+    width: 2.64vw;
   }
 
   .serviceTabContainer {
@@ -42,19 +35,18 @@
     flex-wrap: wrap;
     .serviceTab {
       background: white;
-      height: 120px;
-      width: 420px;
+      height: 6.1vw;
+      width: 21.7vw;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      margin: 50px;
-      padding: 40px;
-      // border: silver 1px solid;
-      box-shadow: (0 30px 50px 15px #ececec);
+      margin: 2.6vw;
+      padding: 2vw;
+      box-shadow: (0 1.8vw 2.8vw .9vw #ececec);
       p {
         font-family: Sunflower;
-        font-size: 24px;
+        font-size: 1.25vw;
         font-weight: bold;
         margin: 0;
         z-index: 2;
@@ -62,15 +54,15 @@
       img {
         margin: 0;
         padding: 0;
-        width: 52px;
+        width: 2.73vw;
         z-index: 2;
       }
       .rectangle {
-        width: 150px;
-        height: 75px;
+        width: 7.74vw;
+        height: 3.9vw;
         background-color: $accent4;
         position: absolute;
-        margin-left: 25px;
+        margin-left: 1.3vw;
       }
       .two {
         background-color: $accent3;
@@ -92,3 +84,94 @@
     }
   }
 }
+
+
+// SAVE for mobile view
+
+// .services {
+//   @include page(white, column, 100vh, auto);
+//   .topServices {
+//     margin: 0 10vw;
+//     display: flex;
+//     flex-direction: column;
+//     align-self: flex-start;
+//   }
+//   .title {
+//     text-align: left;
+//     position: relative;
+//     font-size: 4.2vw;
+//     z-index: 1;
+//   }
+//   .subtitle {
+//     @include subText();
+//     padding: 0 0 0 6vw;
+//     margin: 0 0 0 1vw;
+//   }
+//   .circle {
+//     @include circle();
+//     top: 6.7vw;
+//     left: -.7vw;
+//   }
+
+//   .arrowButton {
+//     height: 50px;
+//     width: 50px;
+//   }
+
+//   .serviceTabContainer {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     .serviceTab {
+//       background: white;
+//       height: 120px;
+//       width: 420px;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       align-items: center;
+//       margin: 50px;
+//       padding: 40px;
+//       // border: silver 1px solid;
+//       box-shadow: (0 30px 50px 15px #ececec);
+//       p {
+//         font-family: Sunflower;
+//         font-size: 24px;
+//         font-weight: bold;
+//         margin: 0;
+//         z-index: 2;
+//       }
+//       img {
+//         margin: 0;
+//         padding: 0;
+//         width: 52px;
+//         z-index: 2;
+//       }
+//       .rectangle {
+//         width: 150px;
+//         height: 75px;
+//         background-color: $accent4;
+//         position: absolute;
+//         margin-left: 25px;
+//       }
+//       .two {
+//         background-color: $accent3;
+//       }
+
+//       .three {
+//         background-color: $accent5;
+//       }
+//       transition: all 0.3s ease;
+//       cursor: pointer;
+//       &:hover {
+//         transform: scale(1.05, 1.05);
+//         div,
+//         section {
+//           transition: all 0.5s ease;
+//           transform: scale(1.05);
+//         }
+//       }
+//     }
+//   }
+// }
