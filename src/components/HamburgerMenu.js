@@ -8,7 +8,7 @@ var styles = {
       height: '30px',
       right: '36px',
       top: '36px',
-      zIndex: '1000000000000',
+      zIndex: '100000',
     },
     bmBurgerBars: {
       background: '#373a47'
@@ -38,7 +38,7 @@ var styles = {
     bmItemList: {
       color: '#273555',
       padding: '0.8em',
-      marginTop:'60px',
+      margin: 0,
     },
     bmItem: {
       display: 'inline-block',
