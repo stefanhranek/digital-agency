@@ -1,171 +1,225 @@
 .home {
-    @include page($mainBG, row, 100vh, auto);
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 180px 10%;
-    button {
-        @include button(black,white);
-        margin-top: 55px;
-        &:hover {
-            border: 5px solid $accent3;
-            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-        }
+  @include page($mainBG, row, 100vh, auto);
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 180px 10%;
+  button {
+    @include button(black, white);
+    margin-top: 2.8vw;
+    &:hover {
+      border: 5px solid $accent3;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     }
+  }
 }
 
 .title {
-    position: relative;
-    font-size: 7vw;
-    z-index: 1;
+  position: relative;
+  font-size: 7vw;
+  z-index: 1;
 }
 
 .description {
-    @include description();
+  @include description();
+}
+.descriptionHome {
+  @include description();
 }
 
 .subtitle {
-    @include subText();
-    text-align: left;
-    padding-left: 25%;
-    margin: 0 0 .6vw 0;
+  @include subText();
+  text-align: left;
+  padding-left: 25%;
+  margin: 0 0 0.6vw 0;
+  letter-spacing: 0.3vw;
 }
 
-
 .circle {
-    width: 10vw;
-    height: 10vw;
-    background: transparent;
-    border-radius: 50%;
-    border: solid 1.75vw $accent3;
-    position: absolute;
-    z-index: 1;
-    top:190px;
-    left: 9.6%;
-  }
+  width: 10vw;
+  height: 10vw;
+  background: transparent;
+  border-radius: 50%;
+  border: solid 1.75vw $accent3;
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  left: 9.6%;
+}
 
 .square {
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    background: $mainBG;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10px;
+  background: $mainBG;
 }
 
 div.homeImageBackground {
-    height: 94%;
-    background: rgb(240,240,240);
-    background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgb(240, 240, 240) 10%, rgba(240,240,240,0) 100%);
+  height: 94%;
+  background: rgb(240, 240, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(240, 240, 240, 1) 0%,
+    rgb(240, 240, 240) 10%,
+    rgba(240, 240, 240, 0) 100%
+  );
 }
 
 .tabContainer {
-    height: auto;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    .one {
-        position: absolute;
-        top: 13%;
-        left: -4.4vw;
-    }
-    .two {
-        position: absolute;
-        top: 44%;
-        left: -10vw;
-    }
-    .three {
-        position: absolute;
-        top: 77%;
-        left: -4.4vw;
-    }
+  height: auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .one {
+    position: absolute;
+    top: 13%;
+    left: -4.4vw;
+  }
+  .two {
+    position: absolute;
+    top: 44%;
+    left: -10vw;
+  }
+  .three {
+    position: absolute;
+    top: 77%;
+    left: -4.4vw;
+  }
 }
 
 .homeImageTab {
-    article {
-        margin: .8vw 1.5vw;
-        font-family: Sunflower;
-        font-size: 1.5vw;
-        font-weight: bold;
-        letter-spacing: 1.25px;
-    }
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: .8vw auto;
-    border-radius: 10px;
-    padding: .8vw 1vw;
-    width: auto;
-    background: white;
+  article {
+    margin: 0.8vw 1.5vw;
+    font-family: Sunflower;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+  }
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.8vw auto;
+  border-radius: 10px;
+  padding: 0.8vw 1vw;
+  width: auto;
+  background: white;
 }
 
 .imageContainer {
-    display: inline-block;
-    position: relative;
-    height: 32vw;
-    width: 22vw;
-  }
-  
-  .imageContainer::before {
-    position: absolute;
-    top: 7%;
-    right: -10%;
-    width: 100%;
-    height: 100%;
-    border: .5vw solid $accent7;
-    content: '';
-  }
-
-.sidewaysText {
-    letter-spacing: 2px;
-    font-weight: bold;
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 8.7vw;
-    right: -10.4vw;
-    font-size: 1.25vw;
-    font-family: Sophillia;
-    margin: 0;
+  display: inline-block;
+  position: relative;
+  height: 32vw;
+  width: 22vw;
 }
 
-img.homeImage{
-    height: 32vw;
-    width: 100%;
+.imageContainer::before {
+  position: absolute;
+  top: 7%;
+  right: -10%;
+  width: 100%;
+  height: 100%;
+  border: 0.5vw solid $accent7;
+  content: "";
+}
+
+.sidewaysText {
+  letter-spacing: 2px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 8.7vw;
+  right: -10.4vw;
+  font-size: 1.25vw;
+  font-family: Sophillia;
+  margin: 0;
+}
+
+img.homeImage {
+  height: 32vw;
+  width: 100%;
 }
 
 .drawing {
-    z-index: 9999;
-
+  z-index: 9999;
 }
-
-
 
 // media queries
 
 @media only screen and (max-width: 1550px) {
-    .sidewaysText {
-        right: -10.5vw;
+  .sidewaysText {
+    right: -10.5vw;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .sidewaysText {
+    right: -11vw;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .sidewaysText {
+    right: -11.5vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sidewaysText {
+    right: -12vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sidewaysText {
+    right: -12.8vw;
+  }
+}
+
+// Mobile devices
+
+@media screen and (max-width: 39.9375em) {
+  .home {
+    height: 100vh;
+    flex-direction: column;
+    button {
+      width: 33vw;
+      height: 10vw;
+      padding: auto;
+      font-size: 2.4vw;
+      margin-left: 1vw;
+      img {
+        height: 5.6vw;
+        width: 5.6vw;
+      }
     }
+  }
+  .homeDescriptionButton {
+    display: flex;
+  }
+  .title {
+    font-size: 13vw;
+    margin-bottom: 4px;
   }
 
-  @media only screen and (max-width: 1350px) {
-    .sidewaysText {
-        right: -11vw;
-    }
+  .descriptionHome {
+    @include description();
+    font-size: 3.6vw;
+    width: 42vw;
   }
 
-  @media only screen and (max-width: 1110px) {
-    .sidewaysText {
-        right: -11.5vw;
-    }
+  .subtitle {
+    @include subText();
+    font-size: 3vw;
+    padding-left: 22%;
+    margin: 0 0 0.6vw 0;
+    letter-spacing: 0.3vw;
   }
 
-  @media only screen and (max-width: 900px) {
-    .sidewaysText {
-        right: -12vw;
-    }
+  .circle {
+    width: 19vw;
+    height: 19vw;
+    border: solid 3vw $accent3;
+    top: 190px;
+    left: 9.6%;
   }
-  @media only screen and (max-width: 700px) {
-    .sidewaysText {
-        right: -12.8vw;
-    }
-  }
+}

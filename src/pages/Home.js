@@ -18,15 +18,16 @@ export default class Home extends Component {
               <br />
               Ideas to Life
             </h1>
-            <p className="description">
-              We're a team of designers and brand
-              <br />
-              strategists who create beautiful websites
-            </p>
-            <button>
-              <img src={ downArrow } alt="arrow" />
-              Explore projects
-            </button>
+            <article className="homeDescriptionButton">
+              <p className="descriptionHome">
+                We're a team of designers and brand
+                strategists who create beautiful websites
+              </p>
+              <button>
+                <img src={ downArrow } alt="arrow" />
+                Explore projects
+              </button>
+            </article>
           </section>
           <section className="imageContainer">
             <div className="homeImageBackground">
