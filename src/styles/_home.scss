@@ -24,6 +24,7 @@
 }
 .descriptionHome {
   @include description();
+  width: 35vw;
 }
 
 .subtitle {
@@ -53,7 +54,7 @@
   background: $mainBG;
 }
 
-div.homeImageBackground {
+div.homeImageBackgroundHome {
   height: 94%;
   background: rgb(240, 240, 240);
   background: linear-gradient(
@@ -64,7 +65,7 @@ div.homeImageBackground {
   );
 }
 
-.tabContainer {
+.tabContainerHome {
   height: auto;
   width: 50vw;
   display: flex;
@@ -87,7 +88,7 @@ div.homeImageBackground {
   }
 }
 
-.homeImageTab {
+.homeImageTabHome {
   article {
     margin: 0.8vw 1.5vw;
     font-family: Sunflower;
@@ -106,14 +107,14 @@ div.homeImageBackground {
   background: white;
 }
 
-.imageContainer {
+.imageContainerHome {
   display: inline-block;
   position: relative;
   height: 32vw;
   width: 22vw;
 }
 
-.imageContainer::before {
+.imageContainerHome::before {
   position: absolute;
   top: 7%;
   right: -10%;
@@ -187,7 +188,7 @@ img.homeImage {
       height: 10vw;
       padding: auto;
       font-size: 2.4vw;
-      margin-left: 1vw;
+      margin: 0 0 0 1vw;
       img {
         height: 5.6vw;
         width: 5.6vw;
@@ -196,6 +197,7 @@ img.homeImage {
   }
   .homeDescriptionButton {
     display: flex;
+    align-items: center;
   }
   .title {
     font-size: 13vw;
@@ -204,7 +206,8 @@ img.homeImage {
 
   .descriptionHome {
     @include description();
-    font-size: 3.6vw;
+    margin: 2vw ;
+    font-size: 3.9vw;
     width: 42vw;
   }
 
@@ -249,7 +252,6 @@ img.homeImage {
     .three {
       display: flex;
       justify-content: space-evenly;
-      position: absolute;
       top: 72%;
       left: -45vw;
     }
@@ -258,17 +260,12 @@ img.homeImage {
   .homeImageTabHome {
     article {
       margin: 0.8vw 1.5vw;
-      font-family: Sunflower;
       font-size: 4vw;
-      font-weight: bold;
       letter-spacing: 1.25px;
     }
-    position: absolute;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0.8vw auto;
-    border-radius: 10px;
     padding: auto;
     width: 40vw;
     height: 14vw;
@@ -276,40 +273,27 @@ img.homeImage {
   }
 
   .imageContainerHome {
-    display: inline-block;
-    position: relative;
-    margin: auto 0 0 45vw;
+    margin: 6vw 0 0 45vw;
     height: 70vw;
     width: 35vw;
   }
 
   .imageContainerHome::before {
-    position: absolute;
     top: 7%;
     right: -10%;
     width: 100%;
-    height: 93%;
+    height: 88%;
     border: 0.5vw solid $accent7;
     content: "";
   }
 
   .sidewaysText {
-    letter-spacing: 2px;
-    font-weight: bold;
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 8.7vw;
-    right: -10.4vw;
-    font-size: 1.25vw;
-    font-family: Sophillia;
-    margin: 0;
+      display: none;
   }
 
   .squareHome {
     width: 10vw;
     height: 10vw;
-    border-radius: 10px;
-    background: $mainBG;
   }
 
   img.homeImage {
