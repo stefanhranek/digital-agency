@@ -23,44 +23,40 @@ export default class Contact extends Component {
           <section className="notSocialLinks">
             <img id="dots" src={dots} alt="dots" />
             <div>
-              <article>
+              <article className="contactColumn">
                 <h5>San Diego</h5>
-                <p>
+                <p className="contactDescriptions">
                   777 Road, Suite A<br />
                   San Diego, California
                 </p>
               </article>
-              <article>
+              <article className="contactColumn">
                 <h5>Barcelona</h5>
-                <p>
+                <p className="contactDescriptions">
                   777 Carrer, Suite B<br />
                   Barcelona, Spain
                 </p>
               </article>
             </div>
             <div>
-              <article>
+              <article className="contactColumn">
                 <h5>StefDigi</h5>
-                <p>
-                  A digital experience to
-                  <br /><p className="hideP"> </p>
-                  showcase our approach
-                  <br /><p className="hideP"> </p>
-                  to building tech
+                <p className="contactDescriptions">
+                 Showcasing our approach to meaningful experiences
                 </p>
               </article>
-              <article>
-                <a href="https://www.stefanhranek.com">www.stefco.com</a>
+              <article className="contactColumn" >
+                <a href="https://www.stefanhranek.com">stefdigi.com</a>
               </article>
             </div>
             <div>
-              <article>
+              <article className="contactColumn">
                 <h5>Email Us</h5>
                 <a href="mailto:hranekstefan@gmail.com">
                   stefco@gmail.com
                 </a>
               </article>
-              <article>
+              <article className="contactColumn">
                 <p className="emailMessage">
                   Have questions?
                   <br />

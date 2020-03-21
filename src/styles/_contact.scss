@@ -42,7 +42,7 @@
 
   .bottomContact {
     margin: auto;
-    padding-left: 10.2vw;
+    padding-left: 9.2vw;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -96,6 +96,17 @@
     margin-top: vw;
     left: 10vw;
   }
+  .notSocialLinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contactColumn {
+    margin: auto 5vw;
+  }
+  .contactDescriptions {
+    margin-bottom: 1.2vw;
+    width: 12vw;
+  }
 }
 
 // Mobile devices
@@ -113,11 +124,11 @@
       padding-bottom: 0;
     }
     p {
-      font-size: 11px;
+      font-size: 10px;
       line-height: 1.5em;
     }
     .socialLinks {
-      margin: auto 25px;
+      margin: 10px 35px auto;
       flex-direction: row;
       justify-content: space-between;
       margin-bottom: 3vw;
@@ -133,6 +144,13 @@
     }
     a {
       font-size: 11px;
+    }
+    .contactDescriptions {
+      width: 94px;
+      margin: 0 0 12px 0;
+    }
+    .contactColumn {
+      margin: auto 1vw;
     }
   }
   section.notSocialLinks {
