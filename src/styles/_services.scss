@@ -20,7 +20,7 @@
   .circle {
     @include circle();
     top: 6.7vw;
-    left: -.7vw;
+    left: -0.7vw;
   }
 
   .arrowButton {
@@ -43,7 +43,7 @@
       align-items: center;
       margin: 2.6vw;
       padding: 2vw;
-      box-shadow: (0 1.8vw 2.8vw .9vw #ececec);
+      box-shadow: (0 1.8vw 2.8vw 0.9vw #ececec);
       p {
         font-family: Sunflower;
         font-size: 1.25vw;
@@ -85,90 +85,85 @@
   }
 }
 
-
 // Mobile devices
 
 @media screen and (max-width: 39.9375em) {
-.services {
-  @include page(white, column, 240vh, auto);
-  .topServices {
-    margin: 0 10vw;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-  }
-  .title {
-    text-align: left;
-    position: relative;
-    font-size: 4.2vw;
-    z-index: 1;
-  }
-  .subtitle {
-    @include subText();
-    padding: 0 0 0 6vw;
-    margin: 0 0 0 1vw;
-  }
-  .circle {
-    @include circle();
-    top: 6.7vw;
-    left: -.7vw;
-  }
+  .services {
+    @include page(white, column, 108vh, auto);
+    .topServices {
+      margin: 6vw 10vw;
+    }
+    .aboutTextSection {
+      margin: 0;
+      padding: 0;
+    }
+    .title {
+      @include titleMobile();
+      font-size: 7.21vw;
+    }
+    .subtitle {
+      @include subtitleMobile();
+      padding-left: 19%;
+    }
+    .description {
+      @include descriptionMobile();
+      width: 75vw;
+      margin: 4vw auto;
+    }
+    .circle {
+      @include circleMobile();
+      width: 10.5vw;
+      height: 10.5vw;
+      top: 15vw;
+      left: -1.2vw;
+    }
 
-  .arrowButton {
-    height: 8vw;
-    width: 8vw;
-  }
+    .arrowButton {
+      height: 8vw;
+      width: 8vw;
+    }
 
-  .serviceTabContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    .serviceTab {
-      height: 15vw;
-      width: 80vw;
-      justify-content: space-evenly;
-      margin: 2.6vw;
-      padding: 2vw;
-      p {
-        font-size: 5vw;
-      }
-      img {
-        width: 8vw;
-      }
-      .rectangle {
-        width: 30vw;
-        height: 8vw;
-        left: 16vw;
-      }
-      .two {
-        background-color: $accent3;
-      }
-
-      .three {
-        background-color: $accent5;
-      }
-      .four{
-        background-color: $accent4;
-      }
-      .five {
-        background-color: $accent3;
-      }
-      .six {
-        background-color: $accent5;
-      }
-      transition: all 0.3s ease;
-      cursor: pointer;
-      &:hover {
-        transform: scale(1.05, 1.05);
-        div,
-        section {
-          transition: all 0.5s ease;
-          transform: scale(1.05);
+    .serviceTabContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 15vw;
+      .serviceTab {
+        height: 15vw;
+        width: 80vw;
+        justify-content: space-evenly;
+        margin: 2.6vw;
+        padding: 2vw;
+        p {
+          font-size: 5vw;
+        }
+        img {
+          width: 8vw;
+        }
+        .rectangle {
+          width: 30vw;
+          height: 9vw;
+          left: 16vw;
+        }
+        .two {
+          background-color: $accent3;
+        }
+        .three {
+          background-color: $accent5;
+        }
+        .four {
+          background-color: $accent4;
+        }
+        .five {
+          background-color: $accent3;
+        }
+        .six {
+          background-color: $accent5;
         }
       }
     }
-  }}
+  }
 }
 
 // SAVE for mobile view
