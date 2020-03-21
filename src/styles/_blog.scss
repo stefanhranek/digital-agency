@@ -1,61 +1,122 @@
 .blog {
-    @include page(white, row, 100vh, auto);
-    justify-content: space-evenly;
-    padding: 0;
-    .title {
-        font-size: 1.85vw;
-        font-family: mackay;
-        font-weight: bold;
-        letter-spacing: .1vw;
-        line-height: 1.5em;
-        margin-bottom: 4vw;
-    }
-    article {
+  @include page(white, row, 100vh, auto);
+  justify-content: space-evenly;
+  padding: 0;
+  .title {
+    font-size: 1.85vw;
+    font-family: mackay;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    line-height: 1.5em;
+    margin-bottom: 4vw;
+  }
+  article {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    button {
+      transition: all 0.4s ease;
+      display: flex;
+      align-items: center;
+      margin: auto 0;
+      padding: 0.76vw 1.45vw;
+      height: auto;
+      width: auto;
+      background-color: $accent2;
+      border: none;
+      img {
         margin: auto;
-        display: flex;
-        justify-content: space-between;
-        button {
-            transition: all .4s ease;
-            display: flex;
-            align-items: center;
-            margin: auto 0;
-            padding: .76vw 1.45vw;
-            height: auto;
-            width: auto;
-            background-color: $accent2;
-            border: none;
-            img {
-                margin: auto;
-                height: 1.6vw;
-                width: 1.6vw;
-            }
-            &:hover {
-                filter: drop-shadow(0 0 .2vw $accent7);
-            }
-        }
+        height: 1.6vw;
+        width: 1.6vw;
+      }
+      &:hover {
+        filter: drop-shadow(0 0 0.2vw $accent7);
+      }
+    }
+  }
+  .name {
+    font-family: sunflower;
+    font-size: 2.3vw;
+    color: $accent2;
+    margin-bottom: 0.9vw;
+  }
+  h4 {
+    color: $text;
+    letter-spacing: 0.1vw;
+    font-size: 0.9vw;
+    margin: 0;
+  }
+  .inner {
+    height: 13vw;
+    width: 13vw;
+    top: 9vw;
+    left: 14vw;
+  }
+  .imageContainer {
+    display: inline-block;
+    position: relative;
+    height: 30.2vw;
+    width: 22vw;
+  }
+  .hideP {
+    display: none;
+  }
+}
+
+// Mobile devices
+
+@media screen and (max-width: 39.9375em) {
+  .blog {
+    .hideP {
+      display: inline-block;
+      margin: 2px;
+    }
+    br {
+      display: none;
+    }
+    margin: 0 10vw;
+    height: 110vh;
+    flex-direction: column-reverse;
+    .title {
+      font-size: 4.5vw;
     }
     .name {
-        font-family: sunflower;
-        font-size: 2.3vw;
-        color: $accent2;
-        margin-bottom:.9vw;
+      font-size: 6vw;
+      margin-bottom: 2vw;
     }
     h4 {
-        color: $text;
-        letter-spacing: .1vw;
-        font-size: .9vw;
-        margin: 0
+      letter-spacing: 0.3vw;
+      font-size: 3.5vw;
     }
-    .inner {
-        height: 13vw;
-        width: 13vw;
-        top: 9vw;
-        left: 14vw;
+    article {
+      button {
+        padding: 2vw 4vw;
+        img {
+          height: 5vw;
+          width: 5vw;
+        }
+      }
     }
     .imageContainer {
-        display: inline-block;
-        position: relative;
-        height: 30.2vw;
-        width: 22vw;
-      }
+      align-self: flex-start;
+      height: 70vw;
+      width: 72vw;
+    }
+    .abstractDrawing {
+      height: 70vw;
+      width: 72vw;
+    }
+    img.circleDrawing {
+      height: 60vw;
+      width: 60vw;
+      top: 8vw;
+      left: 25vw;
+    }
+    img.circleDrawing.inner {
+      height: 35vw;
+      width: 35vw;
+      top: 20vw;
+      left: 37.5vw;
+    }
+  }
 }

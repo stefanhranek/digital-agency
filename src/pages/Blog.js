@@ -10,7 +10,7 @@ export default class Blog extends Component {
       <div className="blog">
         <section className="imageContainer">
           <div className="homeImage">
-            <img src={blogImage2} alt="abstract drawing" />
+            <img className="abstractDrawing" src={blogImage2} alt="abstract drawing" />
             <img className="circleDrawing" src={blogCircle} alt="circle drawing" />
             <img className="circleDrawing inner" src={blogInnerCircle} alt="inner circle drawing" />
             {/* <p className="sidewaysText">EXPLORE AND CREATE!</p> */}
@@ -18,23 +18,23 @@ export default class Blog extends Component {
         </section>
         <section>
           <p className="title">
-            "It was an amazing experience
-            <br />
-            sharing and learning alongside
-            <br />
-            wonderful people from our
-            <br />
-            industry. The great exchange,
-            <br />
-            energy, and valuable lessons
-            <br />
-            will absolutely be extended to
-            <br />
+            "It was an amazing experience 
+            <br /><p className="hideP"> </p>
+            sharing and learning alongside 
+            <br /><p className="hideP"> </p>
+            wonderful people from our 
+            <br /><p className="hideP"> </p>
+            industry. The great exchange, 
+            <br /><p className="hideP"> </p>
+            energy, and valuable lessons 
+            <br /><p className="hideP"> </p>
+            will absolutely be extended to 
+            <br /><p className="hideP"> </p>
             my entire team at Apple."
           </p>
           <article>
-            <div>
-              <h3 className="name">Stefan Hranek</h3>
+            <div className="nameContainer">
+              <h3 className="name">Spike Speigel</h3>
               <h4>LEAD UX DESIGNER, APPLE</h4>
             </div>
             <button className="hvr-bob">

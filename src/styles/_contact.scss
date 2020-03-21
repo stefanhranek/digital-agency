@@ -41,7 +41,6 @@
     .bottomContact {
         margin: auto;
         padding-left: 10.2vw;
-        
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -89,9 +88,9 @@
 
       #dots {
           position: absolute;
-          height: 18vw;
+          height: auto;
           width: 4.5vw;
-          padding-top:4vw;
+          margin-top:vw;
           left: 10vw;
       }
 }
