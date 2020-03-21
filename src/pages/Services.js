@@ -46,7 +46,7 @@ export default class Services extends Component {
             </section>
           </article>
           <article className="serviceTab">
-            <div className="rectangle three" />
+            <div className="rectangle four" />
             <img src={serviceImage4} alt="icon" />
             <p>Web Design</p>
             <section>
@@ -54,7 +54,7 @@ export default class Services extends Component {
             </section>
           </article>
           <article className="serviceTab">
-            <div className="rectangle" />
+            <div className="rectangle five" />
             <img src={serviceImage} alt="icon" />
             <p>App Design</p>
             <section>
@@ -62,7 +62,7 @@ export default class Services extends Component {
             </section>
           </article>
           <article className="serviceTab">
-            <div className="rectangle two" />
+            <div className="rectangle six" />
             <img src={serviceImage6} alt="icon" />
             <p>Development</p>
             <section>
