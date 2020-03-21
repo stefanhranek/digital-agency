@@ -59,7 +59,14 @@
 
 @media screen and (max-width: 39.9375em) {
   .about {
+    height: fit-content;
     flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding-bottom: 20vw;
+    .aboutTextSection {
+      margin:0;
+      padding: 0;
+    }
     .title {
       @include titleMobile();
       font-size: 8.45vw;
@@ -79,9 +86,31 @@
       @include buttonMobile();
       margin-top: 1vw;
     }
-  }
-  .aboutDescriptionButton {
-    display: flex;
-    flex-direction: column;
+    .aboutDescriptionButton {
+      display: flex;
+      flex-direction: column;
+    }
+    .imageContainer {
+      align-self: flex-start;
+      margin: 5vw 0 0 0;
+      height: 70vw;
+      width: 72vw;
+    }
+    .abstractDrawing {
+      height: 70vw;
+      width: 72vw;
+    }
+    img.circleDrawing {
+      height: 60vw;
+      width: 60vw;
+      top: 8vw;
+      left: 25vw;
+    }
+    img.circleDrawing.inner {
+      height: 35vw;
+      width: 35vw;
+      top: 20vw;
+      left: 37.5vw;
+    }
   }
 }
