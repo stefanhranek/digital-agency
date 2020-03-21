@@ -29,24 +29,24 @@ export default class Home extends Component {
               </button>
             </article>
           </section>
-          <section className="imageContainer">
+          <section className="imageContainerHome">
             <div className="homeImageBackground">
               <img className="homeImage" src={homeImage} alt="" />
-              <div className="tabContainer">
-                <div className="homeImageTab one">
-                  <div className="square">
+              <div className="tabContainerHome">
+                <div className="homeImageTabHome one">
+                  <div className="squareHome">
                     <IconHome1 />
                   </div>
                   <article>Research</article>
                 </div>
-                <div className="homeImageTab two">
+                <div className="homeImageTabHome two">
                   <div className="square">
                     <IconHome2 />
                   </div>
                   <article>UI Design</article>
                 </div>
-                <div className="homeImageTab three">
-                  <div className="square">
+                <div className="homeImageTabHome three">
+                  <div className="squareHome">
                     <IconHome3 />
                   </div>
                   <article>Analysis</article>
