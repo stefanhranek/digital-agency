@@ -13,7 +13,11 @@ export default class About extends Component {
         <section className="imageContainer">
           <div className="homeImage">
             <img src={aboutImage2} alt="abstract drawing" />
-            <img className="circleDrawing" src={aboutDrawing} alt="abstract drawing" />
+            <img
+              className="circleDrawing"
+              src={aboutDrawing}
+              alt="abstract drawing"
+            />
             {/* <p className="sidewaysText">EXPLORE AND CREATE!</p> */}
           </div>
         </section>
@@ -27,15 +31,17 @@ export default class About extends Component {
             <br />
             provide solutions
           </h1>
-          <p className="description">
-            We're a team of design practitioners at Stefco
-            <br />
-            who transform organizations through education.
-          </p>
-          <button>
-            <img src={rightArrow} alt="right arrow" />
-            Learn About Us
-          </button>
+          <article className="aboutDescriptionButton">
+            <p className="description">
+              We're a team of design practitioners at Stefco
+              <br />
+              who transform organizations through education.
+            </p>
+            <button>
+              <img src={rightArrow} alt="right arrow" />
+              Learn About Us
+            </button>
+          </article>
         </section>
       </div>
     )

@@ -112,16 +112,15 @@ div.homeImageBackgroundHome {
   position: relative;
   height: 32vw;
   width: 22vw;
-}
-
-.imageContainerHome::before {
-  position: absolute;
-  top: 7%;
-  right: -10%;
-  width: 100%;
-  height: 100%;
-  border: 0.5vw solid $accent7;
-  content: "";
+  &::before {
+    position: absolute;
+    top: 7%;
+    right: -10%;
+    width: 100%;
+    height: 100%;
+    border: 0.5vw solid $accent7;
+    content: "";
+  }
 }
 
 .sidewaysText {
@@ -184,15 +183,7 @@ img.homeImage {
     flex-direction: column;
     padding: 32vw 10%;
     button {
-      width: 33vw;
-      height: 10vw;
-      padding: auto;
-      font-size: 2.4vw;
-      margin: 0 0 0 1vw;
-      img {
-        height: 5.6vw;
-        width: 5.6vw;
-      }
+      @include buttonMobile();
     }
   }
   .homeDescriptionButton {
@@ -205,18 +196,11 @@ img.homeImage {
   }
 
   .descriptionHome {
-    @include description();
-    margin: 2vw ;
-    font-size: 3.9vw;
-    width: 42vw;
+    @include descriptionMobile();
   }
 
   .subtitle {
-    @include subText();
-    font-size: 3vw;
-    padding-left: 22%;
-    margin: 0 0 0.6vw 0;
-    letter-spacing: 0.3vw;
+    @include subtitleMobile();
   }
 
   .circle {
@@ -276,15 +260,13 @@ img.homeImage {
     margin: 6vw 0 0 45vw;
     height: 70vw;
     width: 35vw;
-  }
-
-  .imageContainerHome::before {
-    top: 7%;
-    right: -10%;
-    width: 100%;
-    height: 88%;
-    border: 0.5vw solid $accent7;
-    content: "";
+    &::before {
+      top: 7%;
+      right: -10%;
+      width: 100%;
+      height: 88%;
+      border: 0.5vw solid $accent7;
+    }
   }
 
   .sidewaysText {
