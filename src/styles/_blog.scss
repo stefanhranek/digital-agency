@@ -58,19 +58,15 @@
     height: 30.2vw;
     width: 22vw;
   }
-  .hideP {
-    display: none;
-  }
 }
+    .hideP {
+      display: none;
+    }
 
 // Mobile devices
 
 @media screen and (max-width: 39.9375em) {
   .blog {
-    .hideP {
-      display: inline-block;
-      margin: 2px;
-    }
     br {
       display: none;
     }
@@ -118,5 +114,9 @@
       top: 20vw;
       left: 37.5vw;
     }
+  }
+  .hideP {
+    display: inline-block;
+    margin: 2px;
   }
 }
