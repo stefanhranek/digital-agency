@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 39.9375em) {
   .projects {
-    @include page($mainBG, column, 108vh, auto);
+    @include page($mainBG, column, 110vh, auto);
     button {
       display: none;
       @include buttonMobile();
@@ -75,7 +75,7 @@
     }
     .projectCardContainer {
       flex-direction: column;
-      margin: 0 auto;
+      margin: 0 auto 17vw;
     }
   }
 
