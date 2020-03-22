@@ -280,12 +280,20 @@ img.homeImage {
   }
 
   .squareHome {
-    width: 10vw;
-    height: 10vw;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   img.homeImage {
     height: 62vw;
     width: 100%;
+  }
+
+  .homeIcons {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 10px;
   }
 }

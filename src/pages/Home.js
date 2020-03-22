@@ -40,7 +40,7 @@ export default class Home extends Component {
                   <article>Research</article>
                 </div>
                 <div className="homeImageTabHome two">
-                  <div className="square">
+                  <div className="squareHome">
                     <IconHome2 />
                   </div>
                   <article>UI Design</article>
