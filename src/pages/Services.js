@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import IconService from "../components/IconService"
+import IconService from "../components/lazyloads/IconService"
 import serviceImage from "../images/serviceImage.svg"
 import serviceImage2 from "../images/serviceImage2.svg"
 import serviceImage3 from "../images/serviceImage3.svg"

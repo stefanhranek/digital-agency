@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import IconHome1 from "../components/IconHome1"
-import IconHome2 from "../components/IconHome2"
-import IconHome3 from "../components/IconHome3"
+import IconHome1 from "../components/lazyloads/IconHome1"
+import IconHome2 from "../components/lazyloads/IconHome2"
+import IconHome3 from "../components/lazyloads/IconHome3"
 import homeImage from "../images/homeImage.svg"
 import downArrow from "../images/arrowDown.svg"
 
