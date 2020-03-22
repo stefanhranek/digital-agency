@@ -6,7 +6,16 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <h1>stefco</h1>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <h1>stefco</h1>
+        </Link>
         <ul className="topNav">
           <Link
             className="navLink underline"
