@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import { Link } from "react-scroll"
 
 var styles = {
     bmBurgerButton: {
@@ -62,11 +63,71 @@ export default class HamburgerMenu extends Component {
     return (
       <Menu right styles={ styles } className="burger">
         <ul className="bmItemList">
-          <li className="bmItem">About</li>
-          <li className="bmItem">Service</li>
-          <li className="bmItem">Work</li>
-          <li className="bmItem">Blog</li>
-          <li className="bmItem">Contact</li>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <h1>stefco</h1>
+        </Link>
+          <Link
+            className="bmItem"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            className="bmItem"
+            activeClass="active"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Service
+          </Link>
+          <Link
+            className="bmItem"
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Work
+          </Link>
+          <Link
+            className="bmItem"
+            activeClass="active"
+            to="blog"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Blog
+          </Link>
+          <Link
+            className="bmItem"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Contact
+          </Link>
         </ul>
       </Menu>
     );
