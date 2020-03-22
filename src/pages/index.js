@@ -23,7 +23,6 @@ const IndexPage = () => (
     <Projects />
     <Blog />
     <Contact />
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </div>
 )
 
