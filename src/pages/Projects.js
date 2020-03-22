@@ -6,7 +6,7 @@ import rightArrow from "../images/arrowRight.svg";
 export default class Projects extends Component {
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id="work">
         <section className="topProjects">
           <div>
             <div className="circle" />

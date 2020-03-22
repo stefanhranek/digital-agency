@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import rightArrow from "../images/arrowRight.svg";
+import rightArrow from "../images/arrowRight.svg"
+import { Link } from "react-scroll"
 
 export default class Navbar extends Component {
   render() {
@@ -7,7 +8,62 @@ export default class Navbar extends Component {
       <div className="navbar">
         <h1>stefco</h1>
         <ul className="topNav">
-          <li className="underline">About</li>
+          <Link
+            className="navLink underline"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            className="navLink underline"
+            activeClass="active"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+           Service
+          </Link>
+          <Link
+            className="navLink underline"
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Work
+          </Link>
+          <Link
+            className="navLink underline"
+            activeClass="active"
+            to="blog"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Blog
+          </Link>
+          <Link
+            className="navLink underline"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Contact
+          </Link>
+          
           <li>Service</li>
           <li>Work</li>
           <li>Blog</li>

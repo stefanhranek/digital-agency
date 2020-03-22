@@ -6,7 +6,7 @@ import rightArrow from "../images/arrowRight.svg"
 export default class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <section className="imageContainer">
           <div className="homeImage">
             <img className="abstractDrawing" src={aboutImage2} alt="abstract drawing" />
