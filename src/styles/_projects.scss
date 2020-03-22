@@ -39,3 +39,44 @@
     }
     overflow:hidden;
   }
+
+  // Mobile devices
+
+@media screen and (max-width: 39.9375em) {
+  .projects {
+    @include page($mainBG, column, 108vh, auto);
+    button {
+      display: none;
+      @include buttonMobile();
+      margin-top: 1vw;
+    }
+    .topProjects {
+      margin: 6vw 10vw;
+    }
+    .title {
+      @include titleMobile();
+      font-size: 9.5vw;
+    }
+    .subtitle {
+      @include subtitleMobile();
+      padding-left: 19%;
+    }
+    .description {
+      @include descriptionMobile();
+      width: 75vw;
+      margin: 4vw auto;
+    }
+    .circle {
+      @include circleMobile();
+      width: 11.5vw;
+      height: 11.5vw;
+      top: 16vw;
+      left: -1.5vw;
+    }
+    .projectCardContainer {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+  }
+
+}
