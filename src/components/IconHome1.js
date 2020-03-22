@@ -26,7 +26,7 @@ const IconHome1 = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="homeIcons"/>
 }
 
 export default IconHome1

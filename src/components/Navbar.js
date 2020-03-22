@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import rightArrow from "../images/arrowRight.svg";
-import HamburgerMenu from "./HamburgerMenu";
 
 export default class Navbar extends Component {
   render() {

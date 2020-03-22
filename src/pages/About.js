@@ -1,7 +1,4 @@
 import React, { Component } from "react"
-import IconHome1 from "../components/IconHome1"
-import IconHome2 from "../components/IconHome2"
-import IconHome3 from "../components/IconHome3"
 import aboutImage2 from "../images/aboutImage2.svg"
 import aboutDrawing from "../images/aboutDrawing.png"
 import rightArrow from "../images/arrowRight.svg"
