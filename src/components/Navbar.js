@@ -28,7 +28,7 @@ export default class Navbar extends Component {
             offset={0}
             duration={500}
           >
-           Service
+            Service
           </Link>
           <Link
             className="navLink underline"
@@ -63,11 +63,6 @@ export default class Navbar extends Component {
           >
             Contact
           </Link>
-          
-          <li>Service</li>
-          <li>Work</li>
-          <li>Blog</li>
-          <li>Contact</li>
         </ul>
         <button>
           <img src={rightArrow} alt="right arrow" />
