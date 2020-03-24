@@ -6,7 +6,6 @@
     margin: 0 8vw;
     display: flex;
     align-self: flex-start;
-    // justify-content: space-between;
   }
   .title {
     text-align: left;
@@ -43,7 +42,7 @@
 
 @media screen and (max-width: 39.9375em) {
   .projects {
-    @include page($mainBG, column, 110vh, auto);
+    height: 110vh;
     button {
       display: none;
       @include buttonMobile();

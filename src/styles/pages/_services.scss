@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 39.9375em) {
   .services {
-    @include page(white, column, 108vh, auto);
+    height: 108vh;
     .topServices {
       margin: 6vw 10vw;
     }
@@ -124,17 +124,10 @@
     }
 
     .serviceTabContainer {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
       margin-bottom: 15vw;
       .serviceTab {
         height: 15vw;
         width: 80vw;
-        justify-content: space-evenly;
-        margin: 2.6vw;
-        padding: 2vw;
         p {
           font-size: 5vw;
         }
