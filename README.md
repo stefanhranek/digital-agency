@@ -1,8 +1,4 @@
-<p align="right">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+<img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" align="right" />
 <h1 align="center">
   Stefco - Digital Agency
 </h1>
