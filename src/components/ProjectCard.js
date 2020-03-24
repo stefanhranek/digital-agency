@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import rightArrow from "../images/arrowRightBlack.svg"
+import rightArrow from "../images/svg/arrowRightBlack.svg"
 import projectCardImage from "../images/projectCard.png"
 
 export default class ProjectCard extends Component {

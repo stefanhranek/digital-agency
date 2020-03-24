@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import rightArrow from "../images/arrowRight.svg"
+import rightArrow from "../images/svg/arrowRight.svg"
 import { Link } from "react-scroll"
 
 export default class Navbar extends Component {
