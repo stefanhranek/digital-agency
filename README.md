@@ -10,7 +10,7 @@
 ## 📋 Overview
 
 My intent for this project was to find a website design on Dribbble, then do my best to re-create it while adding interactive elements.
-I was inspired to use <a class="shah" href="https://dribbble.com/uiuxalam" target="_blank" rel="noopener noreferrer">Shah Alam</a>'s design for a digital agency - What caught my attention was the color pallette, graphics, and font selection.
+I was inspired to use <a class="shah" href="https://dribbble.com/shots/10748955-Website-for-Digital-Agency" target="_blank" rel="noopener noreferrer">Shah Alam</a>'s design for a digital agency - What caught my attention was the color pallette, graphics, and font selection.
 
 ## Technologies
 
