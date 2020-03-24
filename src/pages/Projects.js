@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectCard2 from "../components/ProjectCard2";
-import rightArrow from "../images/arrowRight.svg";
+import rightArrow from "../images/svg/arrowRight.svg";
 
 export default class Projects extends Component {
   render() {

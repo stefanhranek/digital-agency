@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import blogImage2 from "../images/blogImage2.svg";
-import blogCircle from "../images/blogCircle.svg";
+import blogImage2 from "../images/svg/blogImage2.svg";
+import blogCircle from "../images/svg/blogCircle.svg";
+import rightArrow from "../images/svg/arrowRight.svg";
 import blogInnerCircle from "../images/blogInnerCircle.png";
-import rightArrow from "../images/arrowRight.svg";
 
 export default class Blog extends Component {
   render() {

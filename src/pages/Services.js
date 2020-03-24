@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 import IconService from "../components/lazyloads/IconService"
-import serviceImage from "../images/serviceImage.svg"
-import serviceImage2 from "../images/serviceImage2.svg"
-import serviceImage3 from "../images/serviceImage3.svg"
-import serviceImage4 from "../images/serviceImage4.svg"
-import serviceImage5 from "../images/serviceImage5.svg"
-import serviceImage6 from "../images/serviceImage6.svg"
+import serviceImage from "../images/svg/serviceImage.svg"
+import serviceImage2 from "../images/svg/serviceImage2.svg"
+import serviceImage3 from "../images/svg/serviceImage3.svg"
+import serviceImage4 from "../images/svg/serviceImage4.svg"
+import serviceImage5 from "../images/svg/serviceImage5.svg"
+import serviceImage6 from "../images/svg/serviceImage6.svg"
 
 export default class Services extends Component {
   render() {

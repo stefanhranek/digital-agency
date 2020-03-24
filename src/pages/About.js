@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import aboutImage2 from "../images/aboutImage2.svg"
+import aboutImage2 from "../images/svg/aboutImage2.svg"
+import rightArrow from "../images/svg/arrowRight.svg"
 import aboutDrawing from "../images/aboutDrawing.png"
-import rightArrow from "../images/arrowRight.svg"
 
 export default class About extends Component {
   render() {

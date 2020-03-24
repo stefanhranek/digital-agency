@@ -1,9 +1,7 @@
 import React, { Component } from "react"
-import IconHome1 from "../components/lazyloads/IconHome1"
-import IconHome2 from "../components/lazyloads/IconHome2"
-import IconHome3 from "../components/lazyloads/IconHome3"
-import homeImage from "../images/homeImage.svg"
-import downArrow from "../images/arrowDown.svg"
+import homeImage from "../images/svg/homeImage.svg"
+import downArrow from "../images/svg/arrowDown.svg"
+import Image from "../components/Images"
 
 export default class Home extends Component {
   render() {
@@ -20,11 +18,11 @@ export default class Home extends Component {
             </h1>
             <article className="homeDescriptionButton">
               <p className="descriptionHome">
-                We're a team of designers and brand
-                strategists who create beautiful websites
+                We're a team of designers and brand strategists who create
+                beautiful websites
               </p>
               <button>
-                <img src={ downArrow } alt="arrow" />
+                <img src={downArrow} alt="arrow" />
                 Explore projects
               </button>
             </article>
@@ -35,19 +33,19 @@ export default class Home extends Component {
               <div className="tabContainerHome">
                 <div className="homeImageTabHome one">
                   <div className="squareHome">
-                    <IconHome1 />
+                    <Image filename="homeIcon1.png" />
                   </div>
                   <article>Research</article>
                 </div>
                 <div className="homeImageTabHome two">
                   <div className="squareHome">
-                    <IconHome2 />
+                    <Image filename="homeIcon2.png" />
                   </div>
                   <article>UI Design</article>
                 </div>
                 <div className="homeImageTabHome three">
                   <div className="squareHome">
-                    <IconHome3 />
+                    <Image filename="homeIcon3.png" />
                   </div>
                   <article>Analysis</article>
                 </div>

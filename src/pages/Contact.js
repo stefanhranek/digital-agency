@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import dots from "./../images/10dots.svg"
+import dots from "./../images/svg/10dots.svg"
 
 export default class Contact extends Component {
   render() {
