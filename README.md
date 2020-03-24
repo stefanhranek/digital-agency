@@ -14,14 +14,12 @@ I was inspired to use <a class="shah" href="https://dribbble.com/uiuxalam" targe
 
 ## Technologies
 
-  <ul>
-    React
-    JavaScript
-    HTML
-    Sass
-    Method Editor (SVG Creator)
-    Gatsby
-  </ul>
+  - React
+  - JavaScript
+  - HTML
+  - Sass
+  - Method Editor (SVG Creator)
+  - Gatsby
 
 ## 🎨 Design
 
