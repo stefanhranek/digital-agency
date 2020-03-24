@@ -1,203 +1,204 @@
 .projectCard {
+  position: relative;
+  height: auto;
+  width: 49.7vw;
+  margin: 5.2vw;
+  padding: 2.6vw 2.1vw 0 3.65vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $accent7;
+
+  section {
+    width: 50%;
+    height: 23.5vw;
+    padding: 1.01vw 1.01vw 0 1.01vw;
+    margin: 0;
+    img {
+      margin: 0;
+      padding: 0;
+      align-self: flex-end;
+      height: 100%;
+    }
+    .title {
+      margin: 0;
+      position: relative;
+      z-index: 1;
+      font-family: recoletta;
+      font-size: 2.1vw;
+      color: white;
+      letter-spacing: 0.06vw;
+    }
+    .right {
+      justify-self: flex-end;
+    }
+  }
+
+  .description {
+    margin: 0;
+    font-size: 0.83vw;
+    font-family: Lato;
+    line-height: 1.5em;
+    color: white;
+    letter-spacing: 0.06vw;
+  }
+
+  .subtitle {
+    @include subText();
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 0.83vw;
+  }
+  button {
+    margin: 0.5vw 0 0 0;
+    @include button(white, black);
+    padding: 0.5vw 1.05vw;
+    font-size: 0.83vw;
+    align-self: flex-start;
+    font-family: recoletta;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+    img {
+      height: 1.4vw;
+      width: 1.4vw;
+    }
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 3vw;
+  }
+
+  .projectImageContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 0.35vw solid black;
+    top: 7%;
+    left: 4.5%;
+    z-index: 10;
+  }
+}
+
+.p2 {
+  background-color: $accent3;
+  h3.title,
+  .description,
+  .subtitle {
+    color: black;
+  }
+  .projectImageContainer {
+    border: 0.35vw solid $accent7;
+  }
+}
+
+// Mobile devices
+
+@media screen and (max-width: 39.9375em) {
+  .projectCard {
     position: relative;
-    height: auto;
-    width: 49.7vw;
+    height: 60vw;
+    width: 85vw;
     margin: 5.2vw;
     padding: 2.6vw 2.1vw 0 3.65vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: $accent7;
-    
+
     section {
-        width: 50%;
-        height: 23.5vw;
-        padding:1.01vw 1.01vw 0 1.01vw;
-        margin: 0;
-        img {
-            margin: 0;
-            padding: 0;
-            align-self: flex-end;
-            height: 100%;
-        }
-        .title {
-            margin: 0;
-            position: relative;
-            z-index: 1;
-            font-family: recoletta;
-            font-size: 2.1vw;
-            color: white;
-            letter-spacing: .06vw;
-        }
-        .right {
-            justify-self: flex-end;
-        }
-    }
-    
-    .description {
-        margin: 0;
-        font-size: .83vw;
-        font-family: Lato;
-        line-height: 1.5em;
-        color: white;
-        letter-spacing: .06vw;
-    }
-    
-    .subtitle {
-        @include subText();
-        text-align: left;
+      width: 50%;
+      height: 44.5vw;
+      padding: 1.01vw 1.01vw 0 1.01vw;
+      margin: 0;
+      img {
         margin: 0;
         padding: 0;
+        align-self: flex-end;
+        height: 50vw;
+      }
+      .title {
+        margin: 0;
+        font-size: 4.1vw;
         color: white;
-        font-size: .83vw;
+        letter-spacing: 0.06vw;
+        width: 36vw;
+      }
+      .right {
+        justify-self: flex-end;
+        img {
+          height: 20vw;
+        }
+      }
+    }
+
+    .description {
+      margin: 2vw 0;
+      font-size: 2.2vw;
+      line-height: 1.5em;
+      letter-spacing: 0.06vw;
+      width: 32vw;
+    }
+
+    .subtitle {
+      @include subText();
+      text-align: left;
+      letter-spacing: 0.1vw;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 2.5vw;
     }
     button {
-        margin: .5vw 0 0 0;
-        @include button(white, black);
-        padding: .5vw 1.05vw;
-        font-size: .83vw;
-        align-self: flex-start;
-        font-family: recoletta;
-        font-weight: bold;
-        z-index:10;
-        cursor: pointer;
-        img {
-            height: 1.4vw;
-            width: 1.4vw;
-        }
+      margin: 0.5vw 0 0 0;
+      @include button(white, black);
+      font-size: 2vw;
+      align-self: flex-start;
+      z-index: 10;
+      padding: 0vw 1.1vw;
+      height: auto;
+      width: auto;
+      border: none;
+      cursor: pointer;
+      img {
+        align-self: center;
+        height: 3vw;
+        width: 3vw;
+        padding-right: 1vw;
+      }
     }
     .left {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding-bottom: 3vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-bottom: 10vw;
+      margin-left: 2vw;
     }
-
 
     .projectImageContainer {
-        width:100%;
-        height:100%;
-        position:absolute;
-        border:.35vw solid black;
-        top:7%;
-        left:4.5%;
-        z-index:10;
-      }
-}
-
-.p2 {
-    background-color: $accent3;
-    h3.title, .description, .subtitle {
-        color: black;
-    }
-    .projectImageContainer {
-        border:.35vw solid $accent7;
-    }
-}
-
-
-  // Mobile devices
-
-  @media screen and (max-width: 39.9375em) {
-    .projectCard {
-        position: relative;
-        height: 60vw;
-        width: 85vw;
-        margin: 5.2vw;
-        padding: 2.6vw 2.1vw 0 3.65vw;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: $accent7;
-        
-        section {
-            width: 50%;
-            height: 44.5vw;
-            padding:1.01vw 1.01vw 0 1.01vw;
-            margin: 0;
-            img {
-                margin: 0;
-                padding: 0;
-                align-self: flex-end;
-                height: 50vw;
-            }
-            .title {
-                margin: 0;
-                font-size: 4.1vw;
-                color: white;
-                letter-spacing: .06vw;
-                width: 36vw;
-            }
-            .right {
-                justify-self: flex-end;
-                img {
-                    height: 20vw
-                }
-            }
-        }
-        
-        .description {
-            margin: 2vw 0;
-            font-size: 2.2vw;
-            line-height: 1.5em;
-            letter-spacing: .06vw;
-            width: 32vw;
-        }
-        
-        .subtitle {
-            @include subText();
-            text-align: left;
-            letter-spacing: .1vw;
-            margin: 0;
-            padding: 0;
-            color: white;
-            font-size: 2.5vw;
-        }
-        button {
-            margin: .5vw 0 0 0;
-            @include button(white, black);
-            font-size: 2vw;
-            align-self: flex-start;
-            z-index:10;
-            padding: 0vw 1.1vw;
-            height: auto;
-            width: auto;
-            border: none;
-            cursor: pointer;
-            img {
-                align-self: center;
-                height: 3vw;
-                width: 3vw;
-                padding-right:1vw;
-            }
-        }
-        .left {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            padding-bottom: 10vw;
-            margin-left: 2vw;
-        }
-    
-    
-        .projectImageContainer {
-            width:100%;
-            height:100%;
-            position:absolute;
-            border:.35vw solid black;
-            top:7%;
-            left:4.5%;
-            z-index:10;
-          }
-    }
-    
-    .p2 {
-        background-color: $accent3;
-        h3.title, .description, .subtitle {
-            color: black;
-        }
-        .projectImageContainer {
-            border:.35vw solid $accent7;
-        }
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border: 0.35vw solid black;
+      top: 7%;
+      left: 4.5%;
+      z-index: 10;
     }
   }
+
+  .p2 {
+    background-color: $accent3;
+    h3.title,
+    .description,
+    .subtitle {
+      color: black;
+    }
+    .projectImageContainer {
+      border: 0.35vw solid $accent7;
+    }
+  }
+}

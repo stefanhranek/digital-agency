@@ -1,46 +1,45 @@
-
 .projects {
-    @include page($mainBG, column, 100vh, auto);
-    padding-left: 0%;
-    .topProjects {
-      width: 100%;
-      margin: 0 8vw;
-      display: flex;
-      align-self: flex-start;
-      // justify-content: space-between;
-    }
-    .title {
-      text-align: left;
-      position: relative;
-      font-size: 3.65vw;
-      z-index: 1;
-    }
-    .subtitle {
-      @include subText();
-      text-align: left;
-      padding: 0 0 0 7.85vw;
-      margin: 0;
-    }
-    .circle {
-      @include circle();
-      top: 6.5vw;
-      left: -.65vw;
-    }
-    button {
-      @include button($accent2,white);
-      margin: 1.8vw 0  1.8vw 35vw;
-      // padding: 20px 40px;
-      align-self: flex-end;
-    }
-    .projectCardContainer {
-      display: flex;
-      flex-direction: row;
-      margin-left: 25vw;
-    }
-    overflow:hidden;
+  @include page($mainBG, column, 100vh, auto);
+  padding-left: 0%;
+  .topProjects {
+    width: 100%;
+    margin: 0 8vw;
+    display: flex;
+    align-self: flex-start;
+    // justify-content: space-between;
   }
+  .title {
+    text-align: left;
+    position: relative;
+    font-size: 3.65vw;
+    z-index: 1;
+  }
+  .subtitle {
+    @include subText();
+    text-align: left;
+    padding: 0 0 0 7.85vw;
+    margin: 0;
+  }
+  .circle {
+    @include circle();
+    top: 6.5vw;
+    left: -0.65vw;
+  }
+  button {
+    @include button($accent2, white);
+    margin: 1.8vw 0 1.8vw 35vw;
+    // padding: 20px 40px;
+    align-self: flex-end;
+  }
+  .projectCardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+  }
+  overflow: hidden;
+}
 
-  // Mobile devices
+// Mobile devices
 
 @media screen and (max-width: 39.9375em) {
   .projects {
@@ -78,5 +77,4 @@
       margin: 0 auto 17vw;
     }
   }
-
 }

@@ -42,19 +42,17 @@ export default class Contact extends Component {
               <article className="contactColumn">
                 <h5>StefDigi</h5>
                 <p className="contactDescriptions">
-                 Showcasing our approach to meaningful experiences
+                  Showcasing our approach to meaningful experiences
                 </p>
               </article>
-              <article className="contactColumn" >
+              <article className="contactColumn">
                 <a href="https://www.stefanhranek.com">stefdigi.com</a>
               </article>
             </div>
             <div>
               <article className="contactColumn">
                 <h5>Email Us</h5>
-                <a href="mailto:hranekstefan@gmail.com">
-                  stefco@gmail.com
-                </a>
+                <a href="mailto:hranekstefan@gmail.com">stefco@gmail.com</a>
               </article>
               <article className="contactColumn">
                 <p className="emailMessage">

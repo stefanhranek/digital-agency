@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectCard2 from "../components/ProjectCard2";
 import rightArrow from "../images/svg/arrowRight.svg";
+import Image from "../components/Images"
+
 
 export default class Projects extends Component {
   render() {

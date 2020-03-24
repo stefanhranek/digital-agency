@@ -9,7 +9,8 @@
     cursor: pointer;
     margin: 0 40px 0 0;
     &:hover {
-      text-shadow: 0 2px 1px $accent3, 0 4px 1px $accent2,0 6px 1px $accent4,0 8px 1px $accent5;
+      text-shadow: 0 2px 1px $accent3, 0 4px 1px $accent2, 0 6px 1px $accent4,
+        0 8px 1px $accent5;
       transform: scale(1.5);
     }
   }

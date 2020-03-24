@@ -9,13 +9,16 @@ export default class About extends Component {
       <div className="about" id="about">
         <section className="imageContainer">
           <div className="homeImage">
-            <img className="abstractDrawing" src={aboutImage2} alt="abstract drawing" />
+            <img
+              className="abstractDrawing"
+              src={aboutImage2}
+              alt="abstract drawing"
+            />
             <img
               className="circleDrawing"
               src={aboutDrawing}
               alt="abstract drawing"
             />
-            {/* <p className="sidewaysText">EXPLORE AND CREATE!</p> */}
           </div>
         </section>
         <section className="aboutTextSection">

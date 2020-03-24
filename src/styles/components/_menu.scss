@@ -1,80 +1,75 @@
 .bmItem {
-    width: 100%;
-    padding: 15px 0;
-    font-size: 44px;
-    border-bottom: 5px solid transparent;
-   &:hover {
-     border-bottom: 5px solid $accent5;
-   }
- }
- 
-   .bmMenu {
-     z-index: 9999999999999999;
-   }
- 
-   
-   
-   
-   div.bm-burger-button{
-     position: fixed;
-     width: 36px;
-     height: 30px;
-     right: 36px;
-     top: -30px;
-    //  top: 36px;
-    }
-    .bmBurgerBars {
-      background: #373a47
-    }
-    .bmBurgerBarsHover {
-      background: #a90000
-    }
-    .bmCrossButton {
-      height: 24px;
-      width: 24px
-    }
-  .bmCross {
-    background: #bdc3c7
+  width: 100%;
+  padding: 15px 0;
+  font-size: 44px;
+  border-bottom: 5px solid transparent;
+  &:hover {
+    border-bottom: 5px solid $accent5;
   }
-  .bmMenuWrap {
-    position: fixed;
-    height: 100%
-  }
-  .bmMenu {
-    background: #FDF3E5;
-    padding: 2.5em 1.5em 0;
-    font-Size: 1.15em
-  }
-  .bmMorphShape {
-    fill: #373a47
-  }
-  .bmItemList {
-    color: #273555;
-    padding: 0.8em;
-    margin: 0 0 0 0;
-  }
-  .bmItem {
-    display: inline-block;
-    color: #273555;
-    font-Weight: bold;
-    list-Style:none;
-  }
-  .bmOverlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
+}
 
+.bmMenu {
+  z-index: 9999999999999999;
+}
 
+div.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: -30px;
+  //  top: 36px;
+}
+.bmBurgerBars {
+  background: #373a47;
+}
+.bmBurgerBarsHover {
+  background: #a90000;
+}
+.bmCrossButton {
+  height: 24px;
+  width: 24px;
+}
+.bmCross {
+  background: #bdc3c7;
+}
+.bmMenuWrap {
+  position: fixed;
+  height: 100%;
+}
+.bmMenu {
+  background: #fdf3e5;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bmMorphShape {
+  fill: #373a47;
+}
+.bmItemList {
+  color: #273555;
+  padding: 0.8em;
+  margin: 0 0 0 0;
+}
+.bmItem {
+  display: inline-block;
+  color: #273555;
+  font-weight: bold;
+  list-style: none;
+}
+.bmOverlay {
+  background: rgba(0, 0, 0, 0.3);
+}
 
 // hides hamburger menu for desktop screen & hides normal navbar for smaller viewports
-  @media only screen and (max-width: 800px) {
-    div.bm-burger-button{
-      position: fixed;
-      width: 36px;
-      height: 30px;
-      right: 36px;
-      top: 44px;
-     }
-     ul.topNav {
-       display: none;
-     }
+@media only screen and (max-width: 800px) {
+  div.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 44px;
   }
+  ul.topNav {
+    display: none;
+  }
+}
