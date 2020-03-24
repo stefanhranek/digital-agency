@@ -19,9 +19,6 @@
   z-index: 1;
 }
 
-.description {
-  @include description();
-}
 .descriptionHome {
   @include description();
   width: 35vw;
@@ -214,28 +211,20 @@ img.homeImage {
     height: 19vw;
     border: solid 3vw $accent3;
     top: 35vw;
-    left: 9.6%;
   }
 
   // image
 
   .tabContainerHome {
-    height: auto;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     .one {
       display: flex;
       justify-content: space-evenly;
-      position: absolute;
       top: 3%;
       left: -45vw;
     }
     .two {
       display: flex;
       justify-content: space-evenly;
-      position: absolute;
       top: 37%;
       left: -45vw;
     }
@@ -249,17 +238,11 @@ img.homeImage {
 
   .homeImageTabHome {
     article {
-      margin: 0.8vw 1.5vw;
       font-size: 4vw;
-      letter-spacing: 1.25px;
     }
-    align-items: center;
-    justify-content: space-between;
-    margin: 0.8vw auto;
     padding: auto;
     width: 40vw;
     height: 14vw;
-    background: white;
   }
 
   .imageContainerHome {
@@ -267,11 +250,7 @@ img.homeImage {
     height: 70vw;
     width: 35vw;
     &::before {
-      top: 7%;
-      right: -10%;
-      width: 100%;
       height: 88%;
-      border: 0.5vw solid $accent7;
     }
   }
 
@@ -288,12 +267,10 @@ img.homeImage {
 
   img.homeImage {
     height: 62vw;
-    width: 100%;
   }
 
   .homeIcons {
     width: 8vw;
     height: 8vw;
-    border-radius: 10px;
   }
 }
