@@ -30,7 +30,6 @@ class Email extends React.Component {
             <input style={textStyle} type="text" />
             <h2 style={textStyle} >Message</h2>
             <textarea  style={textStyle} name="name" id="name" cols="30" rows="10"></textarea>
-            <div className="modalLinkContainer"></div>
           </section>
           <div className="footer">
             <img

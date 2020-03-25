@@ -56,32 +56,6 @@
     height: -webkit-fill-available;
     cursor: crosshair;
   }
-  .modalRight {
-    text-align: center;
-  }
-  .shah {
-    cursor: pointer;
-  }
-}
-
-.modalLinkContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.modalLink {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px 5px 0px;
-  margin: 10px;
-  text-decoration: none;
-  line-height: 20px;
-  cursor: pointer;
-  &:hover {
-    transform: scale(1.2);
-    border: 1.5px solid white;
-  }
 }
 
 .modalEscapeButton {
@@ -101,9 +75,6 @@
     section {
       width: 100%;
       font-size: 12px;
-    }
-    .modalRight {
-      display: none;
     }
   }
 }
