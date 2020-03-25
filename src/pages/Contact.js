@@ -1,10 +1,41 @@
 import React, { Component } from "react"
 import dots from "./../images/svg/10dots.svg"
+import Email from "./../components/modals/Email"
 
 export default class Contact extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isOpenEmailModal: false,
+    }
+    this.escFunction = this.escFunction.bind(this)
+  }
+  escFunction(event) {
+    if (event.keyCode === 27 && this.state.isOpenEmailModal) {
+      this.toggleEmailModal()
+    }
+  }
+
+  componentDidMount() {
+    document.addEventListener("keydown", this.escFunction, false)
+  }
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.escFunction, false)
+  }
+
+  toggleEmailModal = () => {
+    this.setState({
+      isOpenEmailModal: !this.state.isOpenEmailModal,
+    })
+  }
+
   render() {
     return (
       <div className="contact">
+        <Email
+          show={this.state.isOpenEmailModal}
+          onClose={this.toggleEmailModal}
+        ></Email>
         <div className="contactBorder">
           <section className="topContact">
             <p className="title">
@@ -52,7 +83,8 @@ export default class Contact extends Component {
             <div>
               <article className="contactColumn">
                 <h5>Email Us</h5>
-                <a href="mailto:hranekstefan@gmail.com">stefco@gmail.com</a>
+                {/* <a href="mailto:hranekstefan@gmail.com">stefco@gmail.com</a> */}
+                <a onClick={this.toggleEmailModal}>stefco@gmail.com</a>
               </article>
               <article className="contactColumn">
                 <p className="emailMessage">
