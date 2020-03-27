@@ -16,12 +16,13 @@ I was inspired to use <a class="shah" href="https://dribbble.com/shots/10748955-
   - Sass
   - Method Editor (SVG Creator)
   - Gatsby
+  - Netlify
 
 ## 🎨 Design
 
 Original design by <a class="shah" href="https://dribbble.com/uiuxalam" target="_blank" rel="noopener noreferrer">Shah Alam</a>
 
-## SASS Architecture
+## 🏛 SASS Architecture
 
     styles/
     └── base/
